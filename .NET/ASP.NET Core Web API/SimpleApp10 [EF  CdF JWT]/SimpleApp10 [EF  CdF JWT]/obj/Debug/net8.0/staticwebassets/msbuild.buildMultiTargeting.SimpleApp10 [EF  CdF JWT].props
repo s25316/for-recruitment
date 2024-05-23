@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SimpleApp10 [EF  CdF JWT].props" />
+</Project>

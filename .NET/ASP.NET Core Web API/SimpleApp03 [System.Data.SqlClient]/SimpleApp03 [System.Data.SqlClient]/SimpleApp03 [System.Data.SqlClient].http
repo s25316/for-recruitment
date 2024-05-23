@@ -1,0 +1,6 @@
+@SimpleApp03__System.Data.SqlClient__HostAddress = http://localhost:5041
+
+GET {{SimpleApp03__System.Data.SqlClient__HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

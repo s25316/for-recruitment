@@ -1,0 +1,214 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp05 [EF  DbF]\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE3CF08-34EE-432C-9239-D42B9FD5416B}|SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF].csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp05 [ef  dbf]\\simpleapp05 [ef  dbf]\\businesslogiclayer\\clients\\repositories\\clientsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE3CF08-34EE-432C-9239-D42B9FD5416B}|SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF].csproj|solutionrelative:simpleapp05 [ef  dbf]\\businesslogiclayer\\clients\\repositories\\clientsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE3CF08-34EE-432C-9239-D42B9FD5416B}|SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF].csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp05 [ef  dbf]\\simpleapp05 [ef  dbf]\\databaselayer\\apbdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE3CF08-34EE-432C-9239-D42B9FD5416B}|SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF].csproj|solutionrelative:simpleapp05 [ef  dbf]\\databaselayer\\apbdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE3CF08-34EE-432C-9239-D42B9FD5416B}|SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF].csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp05 [ef  dbf]\\simpleapp05 [ef  dbf]\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE3CF08-34EE-432C-9239-D42B9FD5416B}|SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF].csproj|solutionrelative:simpleapp05 [ef  dbf]\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE3CF08-34EE-432C-9239-D42B9FD5416B}|SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF].csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp05 [ef  dbf]\\simpleapp05 [ef  dbf]\\databaselayer\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE3CF08-34EE-432C-9239-D42B9FD5416B}|SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF].csproj|solutionrelative:simpleapp05 [ef  dbf]\\databaselayer\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE3CF08-34EE-432C-9239-D42B9FD5416B}|SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF].csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp05 [ef  dbf]\\simpleapp05 [ef  dbf]\\databaselayer\\clienttrip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE3CF08-34EE-432C-9239-D42B9FD5416B}|SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF].csproj|solutionrelative:simpleapp05 [ef  dbf]\\databaselayer\\clienttrip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE3CF08-34EE-432C-9239-D42B9FD5416B}|SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF].csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp05 [ef  dbf]\\simpleapp05 [ef  dbf]\\databaselayer\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE3CF08-34EE-432C-9239-D42B9FD5416B}|SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF].csproj|solutionrelative:simpleapp05 [ef  dbf]\\databaselayer\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE3CF08-34EE-432C-9239-D42B9FD5416B}|SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF].csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp05 [ef  dbf]\\simpleapp05 [ef  dbf]\\businesslogiclayer\\trips\\tripscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE3CF08-34EE-432C-9239-D42B9FD5416B}|SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF].csproj|solutionrelative:simpleapp05 [ef  dbf]\\businesslogiclayer\\trips\\tripscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE3CF08-34EE-432C-9239-D42B9FD5416B}|SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF].csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp05 [ef  dbf]\\simpleapp05 [ef  dbf]\\businesslogiclayer\\trips\\repositories\\itripsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE3CF08-34EE-432C-9239-D42B9FD5416B}|SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF].csproj|solutionrelative:simpleapp05 [ef  dbf]\\businesslogiclayer\\trips\\repositories\\itripsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE3CF08-34EE-432C-9239-D42B9FD5416B}|SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF].csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp05 [ef  dbf]\\simpleapp05 [ef  dbf]\\businesslogiclayer\\trips\\repositories\\tripsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE3CF08-34EE-432C-9239-D42B9FD5416B}|SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF].csproj|solutionrelative:simpleapp05 [ef  dbf]\\businesslogiclayer\\trips\\repositories\\tripsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE3CF08-34EE-432C-9239-D42B9FD5416B}|SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF].csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp05 [ef  dbf]\\simpleapp05 [ef  dbf]\\businesslogiclayer\\clients\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE3CF08-34EE-432C-9239-D42B9FD5416B}|SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF].csproj|solutionrelative:simpleapp05 [ef  dbf]\\businesslogiclayer\\clients\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE3CF08-34EE-432C-9239-D42B9FD5416B}|SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF].csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp05 [ef  dbf]\\simpleapp05 [ef  dbf]\\businesslogiclayer\\countries\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE3CF08-34EE-432C-9239-D42B9FD5416B}|SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF].csproj|solutionrelative:simpleapp05 [ef  dbf]\\businesslogiclayer\\countries\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE3CF08-34EE-432C-9239-D42B9FD5416B}|SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF].csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp05 [ef  dbf]\\simpleapp05 [ef  dbf]\\businesslogiclayer\\countries\\repositories\\countriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE3CF08-34EE-432C-9239-D42B9FD5416B}|SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF].csproj|solutionrelative:simpleapp05 [ef  dbf]\\businesslogiclayer\\countries\\repositories\\countriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Country.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF]\\DatabaseLayer\\Country.cs",
+              "RelativeDocumentMoniker": "SimpleApp05 [EF  DbF]\\DatabaseLayer\\Country.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF]\\DatabaseLayer\\Country.cs",
+              "RelativeToolTip": "SimpleApp05 [EF  DbF]\\DatabaseLayer\\Country.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T12:27:23.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientTrip.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF]\\DatabaseLayer\\ClientTrip.cs",
+              "RelativeDocumentMoniker": "SimpleApp05 [EF  DbF]\\DatabaseLayer\\ClientTrip.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF]\\DatabaseLayer\\ClientTrip.cs",
+              "RelativeToolTip": "SimpleApp05 [EF  DbF]\\DatabaseLayer\\ClientTrip.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T12:27:15.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF]\\DatabaseLayer\\Client.cs",
+              "RelativeDocumentMoniker": "SimpleApp05 [EF  DbF]\\DatabaseLayer\\Client.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF]\\DatabaseLayer\\Client.cs",
+              "RelativeToolTip": "SimpleApp05 [EF  DbF]\\DatabaseLayer\\Client.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T12:27:06.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApbdContext.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF]\\DatabaseLayer\\ApbdContext.cs",
+              "RelativeDocumentMoniker": "SimpleApp05 [EF  DbF]\\DatabaseLayer\\ApbdContext.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF]\\DatabaseLayer\\ApbdContext.cs",
+              "RelativeToolTip": "SimpleApp05 [EF  DbF]\\DatabaseLayer\\ApbdContext.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAmwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T10:19:20.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITripsRepository.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF]\\BusinessLogicLayer\\Trips\\Repositories\\ITripsRepository.cs",
+              "RelativeDocumentMoniker": "SimpleApp05 [EF  DbF]\\BusinessLogicLayer\\Trips\\Repositories\\ITripsRepository.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF]\\BusinessLogicLayer\\Trips\\Repositories\\ITripsRepository.cs",
+              "RelativeToolTip": "SimpleApp05 [EF  DbF]\\BusinessLogicLayer\\Trips\\Repositories\\ITripsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T07:51:07.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TripsRepository.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF]\\BusinessLogicLayer\\Trips\\Repositories\\TripsRepository.cs",
+              "RelativeDocumentMoniker": "SimpleApp05 [EF  DbF]\\BusinessLogicLayer\\Trips\\Repositories\\TripsRepository.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF]\\BusinessLogicLayer\\Trips\\Repositories\\TripsRepository.cs",
+              "RelativeToolTip": "SimpleApp05 [EF  DbF]\\BusinessLogicLayer\\Trips\\Repositories\\TripsRepository.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAcwDsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T07:45:55.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClientsController.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF]\\BusinessLogicLayer\\Clients\\ClientsController.cs",
+              "RelativeDocumentMoniker": "SimpleApp05 [EF  DbF]\\BusinessLogicLayer\\Clients\\ClientsController.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF]\\BusinessLogicLayer\\Clients\\ClientsController.cs",
+              "RelativeToolTip": "SimpleApp05 [EF  DbF]\\BusinessLogicLayer\\Clients\\ClientsController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T07:45:45.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientsRepository.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF]\\BusinessLogicLayer\\Clients\\Repositories\\ClientsRepository.cs",
+              "RelativeDocumentMoniker": "SimpleApp05 [EF  DbF]\\BusinessLogicLayer\\Clients\\Repositories\\ClientsRepository.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF]\\BusinessLogicLayer\\Clients\\Repositories\\ClientsRepository.cs",
+              "RelativeToolTip": "SimpleApp05 [EF  DbF]\\BusinessLogicLayer\\Clients\\Repositories\\ClientsRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwFQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T07:36:16.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF]\\Program.cs",
+              "RelativeDocumentMoniker": "SimpleApp05 [EF  DbF]\\Program.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF]\\Program.cs",
+              "RelativeToolTip": "SimpleApp05 [EF  DbF]\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T17:58:21.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CountriesController.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF]\\BusinessLogicLayer\\Countries\\CountriesController.cs",
+              "RelativeDocumentMoniker": "SimpleApp05 [EF  DbF]\\BusinessLogicLayer\\Countries\\CountriesController.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF]\\BusinessLogicLayer\\Countries\\CountriesController.cs",
+              "RelativeToolTip": "SimpleApp05 [EF  DbF]\\BusinessLogicLayer\\Countries\\CountriesController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T07:45:40.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TripsController.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF]\\BusinessLogicLayer\\Trips\\TripsController.cs",
+              "RelativeDocumentMoniker": "SimpleApp05 [EF  DbF]\\BusinessLogicLayer\\Trips\\TripsController.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF]\\BusinessLogicLayer\\Trips\\TripsController.cs",
+              "RelativeToolTip": "SimpleApp05 [EF  DbF]\\BusinessLogicLayer\\Trips\\TripsController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAkwDsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T07:44:16.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CountriesRepository.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF]\\BusinessLogicLayer\\Countries\\Repositories\\CountriesRepository.cs",
+              "RelativeDocumentMoniker": "SimpleApp05 [EF  DbF]\\BusinessLogicLayer\\Countries\\Repositories\\CountriesRepository.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp05 [EF  DbF]\\SimpleApp05 [EF  DbF]\\BusinessLogicLayer\\Countries\\Repositories\\CountriesRepository.cs",
+              "RelativeToolTip": "SimpleApp05 [EF  DbF]\\BusinessLogicLayer\\Countries\\Repositories\\CountriesRepository.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T07:43:49.853Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

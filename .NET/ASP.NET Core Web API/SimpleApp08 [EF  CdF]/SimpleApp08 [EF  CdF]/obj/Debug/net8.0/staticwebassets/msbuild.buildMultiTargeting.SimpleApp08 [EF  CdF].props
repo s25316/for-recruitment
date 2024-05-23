@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SimpleApp08 [EF  CdF].props" />
+</Project>

@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\SimpleApp 01 [Overlapping Dynamic and other]\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD2E0F8-2938-4A5F-84AC-1ABB2875A3FA}|MAS03\\SimpleApp 01 [Overlapping Dynamic and other].csproj|c:\\1 artem\u0060s folder\\c#\\console app\\simpleapp 01 [overlapping dynamic and other]\\mas03\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD2E0F8-2938-4A5F-84AC-1ABB2875A3FA}|MAS03\\SimpleApp 01 [Overlapping Dynamic and other].csproj|solutionrelative:mas03\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD2E0F8-2938-4A5F-84AC-1ABB2875A3FA}|MAS03\\SimpleApp 01 [Overlapping Dynamic and other].csproj|c:\\1 artem\u0060s folder\\c#\\console app\\simpleapp 01 [overlapping dynamic and other]\\mas03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD2E0F8-2938-4A5F-84AC-1ABB2875A3FA}|MAS03\\SimpleApp 01 [Overlapping Dynamic and other].csproj|solutionrelative:mas03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\1 Artem\u0060s Folder\\C#\\Console App\\MAS03\\MAS03\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\1 Artem\u0060s Folder\\C#\\Console App\\MAS03\\MAS03\\Models\\Employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\1 Artem\u0060s Folder\\C#\\Console App\\MAS03\\MAS03\\Models\\RulerPerson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\1 Artem\u0060s Folder\\C#\\Console App\\MAS03\\MAS03\\Models\\CouncilPerson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\1 Artem\u0060s Folder\\C#\\Console App\\MAS03\\MAS03\\Models\\Cream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\1 Artem\u0060s Folder\\C#\\Console App\\MAS03\\MAS03\\Models\\Animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\SimpleApp 01 [Overlapping Dynamic and other]\\MAS03\\Models\\Animal.cs",
+              "RelativeDocumentMoniker": "MAS03\\Models\\Animal.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\SimpleApp 01 [Overlapping Dynamic and other]\\MAS03\\Models\\Animal.cs*",
+              "RelativeToolTip": "MAS03\\Models\\Animal.cs*",
+              "ViewState": "AQIAABgAAAAAAAAAAAAmwCsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T20:19:41.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\SimpleApp 01 [Overlapping Dynamic and other]\\MAS03\\Program.cs",
+              "RelativeDocumentMoniker": "MAS03\\Program.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\SimpleApp 01 [Overlapping Dynamic and other]\\MAS03\\Program.cs",
+              "RelativeToolTip": "MAS03\\Program.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAQwFQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T12:29:14.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\MAS03\\MAS03\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "..\\MAS03\\MAS03\\Models\\Employee.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\MAS03\\MAS03\\Models\\Employee.cs",
+              "RelativeToolTip": "..\\MAS03\\MAS03\\Models\\Employee.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAIwBQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:28:20.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RulerPerson.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\MAS03\\MAS03\\Models\\RulerPerson.cs",
+              "RelativeDocumentMoniker": "..\\MAS03\\MAS03\\Models\\RulerPerson.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\MAS03\\MAS03\\Models\\RulerPerson.cs",
+              "RelativeToolTip": "..\\MAS03\\MAS03\\Models\\RulerPerson.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:22:35.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CouncilPerson.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\MAS03\\MAS03\\Models\\CouncilPerson.cs",
+              "RelativeDocumentMoniker": "..\\MAS03\\MAS03\\Models\\CouncilPerson.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\MAS03\\MAS03\\Models\\CouncilPerson.cs",
+              "RelativeToolTip": "..\\MAS03\\MAS03\\Models\\CouncilPerson.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwGQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:20:09.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cream.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\MAS03\\MAS03\\Models\\Cream.cs",
+              "RelativeDocumentMoniker": "..\\MAS03\\MAS03\\Models\\Cream.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\MAS03\\MAS03\\Models\\Cream.cs",
+              "RelativeToolTip": "..\\MAS03\\MAS03\\Models\\Cream.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAywGAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T17:31:22.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\MAS03\\MAS03\\Models\\Animal.cs",
+              "RelativeDocumentMoniker": "..\\MAS03\\MAS03\\Models\\Animal.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\MAS03\\MAS03\\Models\\Animal.cs",
+              "RelativeToolTip": "..\\MAS03\\MAS03\\Models\\Animal.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T17:27:55.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\MAS03\\MAS03\\Program.cs",
+              "RelativeDocumentMoniker": "..\\MAS03\\MAS03\\Program.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\MAS03\\MAS03\\Program.cs",
+              "RelativeToolTip": "..\\MAS03\\MAS03\\Program.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T17:57:51.989Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SimpleApp01 [System.Data.SqlClient].props" />
+</Project>

@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp03 [System.Data.SqlClient]\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C4DB33BC-9C1E-4CEC-83D1-7CB6CB623727}|SimpleApp03 [System.Data.SqlClient]\\SimpleApp03 [System.Data.SqlClient].csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp03 [system.data.sqlclient]\\simpleapp03 [system.data.sqlclient]\\entities\\prescriptionsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4DB33BC-9C1E-4CEC-83D1-7CB6CB623727}|SimpleApp03 [System.Data.SqlClient]\\SimpleApp03 [System.Data.SqlClient].csproj|solutionrelative:simpleapp03 [system.data.sqlclient]\\entities\\prescriptionsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4DB33BC-9C1E-4CEC-83D1-7CB6CB623727}|SimpleApp03 [System.Data.SqlClient]\\SimpleApp03 [System.Data.SqlClient].csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp03 [system.data.sqlclient]\\simpleapp03 [system.data.sqlclient]\\models\\dtos\\postmedicineprescriptionwithid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4DB33BC-9C1E-4CEC-83D1-7CB6CB623727}|SimpleApp03 [System.Data.SqlClient]\\SimpleApp03 [System.Data.SqlClient].csproj|solutionrelative:simpleapp03 [system.data.sqlclient]\\models\\dtos\\postmedicineprescriptionwithid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4DB33BC-9C1E-4CEC-83D1-7CB6CB623727}|SimpleApp03 [System.Data.SqlClient]\\SimpleApp03 [System.Data.SqlClient].csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp03 [system.data.sqlclient]\\simpleapp03 [system.data.sqlclient]\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4DB33BC-9C1E-4CEC-83D1-7CB6CB623727}|SimpleApp03 [System.Data.SqlClient]\\SimpleApp03 [System.Data.SqlClient].csproj|solutionrelative:simpleapp03 [system.data.sqlclient]\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4DB33BC-9C1E-4CEC-83D1-7CB6CB623727}|SimpleApp03 [System.Data.SqlClient]\\SimpleApp03 [System.Data.SqlClient].csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp03 [system.data.sqlclient]\\simpleapp03 [system.data.sqlclient]\\models\\dtos\\prescriptiondetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4DB33BC-9C1E-4CEC-83D1-7CB6CB623727}|SimpleApp03 [System.Data.SqlClient]\\SimpleApp03 [System.Data.SqlClient].csproj|solutionrelative:simpleapp03 [system.data.sqlclient]\\models\\dtos\\prescriptiondetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4DB33BC-9C1E-4CEC-83D1-7CB6CB623727}|SimpleApp03 [System.Data.SqlClient]\\SimpleApp03 [System.Data.SqlClient].csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp03 [system.data.sqlclient]\\simpleapp03 [system.data.sqlclient]\\entities\\iprescriptionsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4DB33BC-9C1E-4CEC-83D1-7CB6CB623727}|SimpleApp03 [System.Data.SqlClient]\\SimpleApp03 [System.Data.SqlClient].csproj|solutionrelative:simpleapp03 [system.data.sqlclient]\\entities\\iprescriptionsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4DB33BC-9C1E-4CEC-83D1-7CB6CB623727}|SimpleApp03 [System.Data.SqlClient]\\SimpleApp03 [System.Data.SqlClient].csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp03 [system.data.sqlclient]\\simpleapp03 [system.data.sqlclient]\\models\\dtos\\postmedicineprescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4DB33BC-9C1E-4CEC-83D1-7CB6CB623727}|SimpleApp03 [System.Data.SqlClient]\\SimpleApp03 [System.Data.SqlClient].csproj|solutionrelative:simpleapp03 [system.data.sqlclient]\\models\\dtos\\postmedicineprescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4DB33BC-9C1E-4CEC-83D1-7CB6CB623727}|SimpleApp03 [System.Data.SqlClient]\\SimpleApp03 [System.Data.SqlClient].csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp03 [system.data.sqlclient]\\simpleapp03 [system.data.sqlclient]\\controllers\\prescriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4DB33BC-9C1E-4CEC-83D1-7CB6CB623727}|SimpleApp03 [System.Data.SqlClient]\\SimpleApp03 [System.Data.SqlClient].csproj|solutionrelative:simpleapp03 [system.data.sqlclient]\\controllers\\prescriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Request.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp03 [System.Data.SqlClient]\\SimpleApp03 [System.Data.SqlClient]\\Models\\Request.cs",
+              "RelativeDocumentMoniker": "SimpleApp03 [System.Data.SqlClient]\\Models\\Request.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp03 [System.Data.SqlClient]\\SimpleApp03 [System.Data.SqlClient]\\Models\\Request.cs",
+              "RelativeToolTip": "SimpleApp03 [System.Data.SqlClient]\\Models\\Request.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T09:28:50.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PrescriptionDetailsDTO.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp03 [System.Data.SqlClient]\\SimpleApp03 [System.Data.SqlClient]\\Models\\DTOs\\PrescriptionDetailsDTO.cs",
+              "RelativeDocumentMoniker": "SimpleApp03 [System.Data.SqlClient]\\Models\\DTOs\\PrescriptionDetailsDTO.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp03 [System.Data.SqlClient]\\SimpleApp03 [System.Data.SqlClient]\\Models\\DTOs\\PrescriptionDetailsDTO.cs",
+              "RelativeToolTip": "SimpleApp03 [System.Data.SqlClient]\\Models\\DTOs\\PrescriptionDetailsDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T09:13:56.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPrescriptionsRepository.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp03 [System.Data.SqlClient]\\SimpleApp03 [System.Data.SqlClient]\\Entities\\IPrescriptionsRepository.cs",
+              "RelativeDocumentMoniker": "SimpleApp03 [System.Data.SqlClient]\\Entities\\IPrescriptionsRepository.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp03 [System.Data.SqlClient]\\SimpleApp03 [System.Data.SqlClient]\\Entities\\IPrescriptionsRepository.cs",
+              "RelativeToolTip": "SimpleApp03 [System.Data.SqlClient]\\Entities\\IPrescriptionsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T08:52:52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PostMedicinePrescription.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp03 [System.Data.SqlClient]\\SimpleApp03 [System.Data.SqlClient]\\Models\\DTOs\\PostMedicinePrescription.cs",
+              "RelativeDocumentMoniker": "SimpleApp03 [System.Data.SqlClient]\\Models\\DTOs\\PostMedicinePrescription.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp03 [System.Data.SqlClient]\\SimpleApp03 [System.Data.SqlClient]\\Models\\DTOs\\PostMedicinePrescription.cs",
+              "RelativeToolTip": "SimpleApp03 [System.Data.SqlClient]\\Models\\DTOs\\PostMedicinePrescription.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T08:42:08.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PostMedicinePrescriptionWithId.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp03 [System.Data.SqlClient]\\SimpleApp03 [System.Data.SqlClient]\\Models\\DTOs\\PostMedicinePrescriptionWithId.cs",
+              "RelativeDocumentMoniker": "SimpleApp03 [System.Data.SqlClient]\\Models\\DTOs\\PostMedicinePrescriptionWithId.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp03 [System.Data.SqlClient]\\SimpleApp03 [System.Data.SqlClient]\\Models\\DTOs\\PostMedicinePrescriptionWithId.cs",
+              "RelativeToolTip": "SimpleApp03 [System.Data.SqlClient]\\Models\\DTOs\\PostMedicinePrescriptionWithId.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T08:42:05.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PrescriptionsRepository.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp03 [System.Data.SqlClient]\\SimpleApp03 [System.Data.SqlClient]\\Entities\\PrescriptionsRepository.cs",
+              "RelativeDocumentMoniker": "SimpleApp03 [System.Data.SqlClient]\\Entities\\PrescriptionsRepository.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp03 [System.Data.SqlClient]\\SimpleApp03 [System.Data.SqlClient]\\Entities\\PrescriptionsRepository.cs",
+              "RelativeToolTip": "SimpleApp03 [System.Data.SqlClient]\\Entities\\PrescriptionsRepository.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwIIAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T07:29:17.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PrescriptionsController.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp03 [System.Data.SqlClient]\\SimpleApp03 [System.Data.SqlClient]\\Controllers\\PrescriptionsController.cs",
+              "RelativeDocumentMoniker": "SimpleApp03 [System.Data.SqlClient]\\Controllers\\PrescriptionsController.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp03 [System.Data.SqlClient]\\SimpleApp03 [System.Data.SqlClient]\\Controllers\\PrescriptionsController.cs",
+              "RelativeToolTip": "SimpleApp03 [System.Data.SqlClient]\\Controllers\\PrescriptionsController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T23:01:24.414Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

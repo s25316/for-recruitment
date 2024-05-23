@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "HWPorjvoVxPbr+mxGsLaAaqsyAXJPTB9JyKGMfOp7ks=",
+  "Source": "SimpleApp02 [System.Data.SqlClient]",
+  "BasePath": "_content/SimpleApp02 [System.Data.SqlClient]",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
