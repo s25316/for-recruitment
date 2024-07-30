@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "68nBCnE7Ilo=",
+  "dgSpecHash": "TCxQEtMO7Zs=",
   "success": true,
-  "projectFilePath": "C:\\1 Artem`s Folder\\C#\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\SimpleApp12 [APIs]\\SimpleApp12 [APIs].csproj",
+  "projectFilePath": "C:\\1 Artem`s Folder\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\SimpleApp12 [APIs]\\SimpleApp12 [APIs].csproj",
   "expectedPackageFiles": [
     "C:\\Users\\artem\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\artem\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",

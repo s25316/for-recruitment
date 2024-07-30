@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Radon")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6abf6cff7779fad2f4f8ca4760c295f17ab1ff97")]
 [assembly: System.Reflection.AssemblyProductAttribute("Radon")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Radon")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

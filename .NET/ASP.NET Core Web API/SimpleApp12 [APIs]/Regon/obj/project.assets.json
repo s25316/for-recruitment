@@ -65,11 +65,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\1 Artem`s Folder\\C#\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\Regon.csproj",
+      "projectUniqueName": "C:\\1 Artem`s Folder\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\Regon.csproj",
       "projectName": "Regon",
-      "projectPath": "C:\\1 Artem`s Folder\\C#\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\Regon.csproj",
+      "projectPath": "C:\\1 Artem`s Folder\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\Regon.csproj",
       "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
-      "outputPath": "C:\\1 Artem`s Folder\\C#\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\obj\\",
+      "outputPath": "C:\\1 Artem`s Folder\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\artem\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -19,7 +19,7 @@ namespace SimpleApp12__APIs_.BusinessLogicLayer.Regon
         public async Task<IActionResult> Index(string nip, CancellationToken cancellation) 
         {
             try {
-                var result = await _regonRepository.GetCompanyBYNIP(nip, "abcde12345abcde12345", true, cancellation);
+                var result = await _regonRepository.GetCompanyBYNIP(nip, "zzz", true, cancellation);
                 /*var list = result.Split("\n").Select(s => s.Trim()).ToList();
                 for (int i = 0; i < list.Count; i++)
                 {
