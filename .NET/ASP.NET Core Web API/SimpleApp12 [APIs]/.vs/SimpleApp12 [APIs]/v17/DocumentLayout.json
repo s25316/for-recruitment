@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86CAE683-D2CA-473C-B05F-5F00DE544E34}|Regon\\Regon.csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp12 [apis]\\regon\\repositories\\soapenvelopes\\iregonenvelopesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86CAE683-D2CA-473C-B05F-5F00DE544E34}|Regon\\Regon.csproj|solutionrelative:regon\\repositories\\soapenvelopes\\iregonenvelopesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86CAE683-D2CA-473C-B05F-5F00DE544E34}|Regon\\Regon.csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp12 [apis]\\regon\\repositories\\soapenvelopes\\regonenvelopesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86CAE683-D2CA-473C-B05F-5F00DE544E34}|Regon\\Regon.csproj|solutionrelative:regon\\repositories\\soapenvelopes\\regonenvelopesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86CAE683-D2CA-473C-B05F-5F00DE544E34}|Regon\\Regon.csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp12 [apis]\\regon\\valueobjectsandtheirexceptions\\silosidvalue\\silosid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86CAE683-D2CA-473C-B05F-5F00DE544E34}|Regon\\Regon.csproj|solutionrelative:regon\\valueobjectsandtheirexceptions\\silosidvalue\\silosid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86CAE683-D2CA-473C-B05F-5F00DE544E34}|Regon\\Regon.csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp12 [apis]\\regon\\valueobjectsandtheirexceptions\\typjednostkivalue\\typjednostki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86CAE683-D2CA-473C-B05F-5F00DE544E34}|Regon\\Regon.csproj|solutionrelative:regon\\valueobjectsandtheirexceptions\\typjednostkivalue\\typjednostki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86CAE683-D2CA-473C-B05F-5F00DE544E34}|Regon\\Regon.csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp12 [apis]\\regon\\valueobjectsandtheirexceptions\\typjednostkivalue\\typjednostkiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86CAE683-D2CA-473C-B05F-5F00DE544E34}|Regon\\Regon.csproj|solutionrelative:regon\\valueobjectsandtheirexceptions\\typjednostkivalue\\typjednostkiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86CAE683-D2CA-473C-B05F-5F00DE544E34}|Regon\\Regon.csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp12 [apis]\\regon\\repositories\\regonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86CAE683-D2CA-473C-B05F-5F00DE544E34}|Regon\\Regon.csproj|solutionrelative:regon\\repositories\\regonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86CAE683-D2CA-473C-B05F-5F00DE544E34}|Regon\\Regon.csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp12 [apis]\\regon\\models\\responsedaneszukaj\\level4\\root.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86CAE683-D2CA-473C-B05F-5F00DE544E34}|Regon\\Regon.csproj|solutionrelative:regon\\models\\responsedaneszukaj\\level4\\root.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86CAE683-D2CA-473C-B05F-5F00DE544E34}|Regon\\Regon.csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp12 [apis]\\regon\\models\\responsedaneszukaj\\level5\\dane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86CAE683-D2CA-473C-B05F-5F00DE544E34}|Regon\\Regon.csproj|solutionrelative:regon\\models\\responsedaneszukaj\\level5\\dane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86CAE683-D2CA-473C-B05F-5F00DE544E34}|Regon\\Regon.csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp12 [apis]\\regon\\models\\responsedaneszukaj\\envelope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86CAE683-D2CA-473C-B05F-5F00DE544E34}|Regon\\Regon.csproj|solutionrelative:regon\\models\\responsedaneszukaj\\envelope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IRegonEnvelopesRepository.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\Repositories\\SoapEnvelopes\\IRegonEnvelopesRepository.cs",
+              "RelativeDocumentMoniker": "Regon\\Repositories\\SoapEnvelopes\\IRegonEnvelopesRepository.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\Repositories\\SoapEnvelopes\\IRegonEnvelopesRepository.cs",
+              "RelativeToolTip": "Regon\\Repositories\\SoapEnvelopes\\IRegonEnvelopesRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwA0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T12:16:21.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegonEnvelopesRepository.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\Repositories\\SoapEnvelopes\\RegonEnvelopesRepository.cs",
+              "RelativeDocumentMoniker": "Regon\\Repositories\\SoapEnvelopes\\RegonEnvelopesRepository.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\Repositories\\SoapEnvelopes\\RegonEnvelopesRepository.cs",
+              "RelativeToolTip": "Regon\\Repositories\\SoapEnvelopes\\RegonEnvelopesRepository.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAcwGQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T12:10:57.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SilosId.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\ValueObjectsAndTheirExceptions\\SilosIdValue\\SilosId.cs",
+              "RelativeDocumentMoniker": "Regon\\ValueObjectsAndTheirExceptions\\SilosIdValue\\SilosId.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\ValueObjectsAndTheirExceptions\\SilosIdValue\\SilosId.cs",
+              "RelativeToolTip": "Regon\\ValueObjectsAndTheirExceptions\\SilosIdValue\\SilosId.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T11:49:58.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TypJednostkiException.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\ValueObjectsAndTheirExceptions\\TypJednostkiValue\\TypJednostkiException.cs",
+              "RelativeDocumentMoniker": "Regon\\ValueObjectsAndTheirExceptions\\TypJednostkiValue\\TypJednostkiException.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\ValueObjectsAndTheirExceptions\\TypJednostkiValue\\TypJednostkiException.cs",
+              "RelativeToolTip": "Regon\\ValueObjectsAndTheirExceptions\\TypJednostkiValue\\TypJednostkiException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T11:49:48.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Root.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\Models\\ResponseDaneSzukaj\\Level4\\Root.cs",
+              "RelativeDocumentMoniker": "Regon\\Models\\ResponseDaneSzukaj\\Level4\\Root.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\Models\\ResponseDaneSzukaj\\Level4\\Root.cs",
+              "RelativeToolTip": "Regon\\Models\\ResponseDaneSzukaj\\Level4\\Root.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T11:19:25.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Envelope.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\Models\\ResponseDaneSzukaj\\Envelope.cs",
+              "RelativeDocumentMoniker": "Regon\\Models\\ResponseDaneSzukaj\\Envelope.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\Models\\ResponseDaneSzukaj\\Envelope.cs",
+              "RelativeToolTip": "Regon\\Models\\ResponseDaneSzukaj\\Envelope.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T11:07:46.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegonRepository.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\Repositories\\RegonRepository.cs",
+              "RelativeDocumentMoniker": "Regon\\Repositories\\RegonRepository.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\Repositories\\RegonRepository.cs",
+              "RelativeToolTip": "Regon\\Repositories\\RegonRepository.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAwwHEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T11:05:21.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dane.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\Models\\ResponseDaneSzukaj\\Level5\\Dane.cs",
+              "RelativeDocumentMoniker": "Regon\\Models\\ResponseDaneSzukaj\\Level5\\Dane.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\Models\\ResponseDaneSzukaj\\Level5\\Dane.cs",
+              "RelativeToolTip": "Regon\\Models\\ResponseDaneSzukaj\\Level5\\Dane.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T09:20:45.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TypJednostki.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\ValueObjectsAndTheirExceptions\\TypJednostkiValue\\TypJednostki.cs",
+              "RelativeDocumentMoniker": "Regon\\ValueObjectsAndTheirExceptions\\TypJednostkiValue\\TypJednostki.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\ValueObjectsAndTheirExceptions\\TypJednostkiValue\\TypJednostki.cs",
+              "RelativeToolTip": "Regon\\ValueObjectsAndTheirExceptions\\TypJednostkiValue\\TypJednostki.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB8AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T09:20:13.475Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

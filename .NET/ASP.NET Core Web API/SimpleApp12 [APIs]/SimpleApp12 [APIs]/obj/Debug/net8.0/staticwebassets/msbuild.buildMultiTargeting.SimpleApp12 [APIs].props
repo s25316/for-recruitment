@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SimpleApp12 [APIs].props" />
+</Project>

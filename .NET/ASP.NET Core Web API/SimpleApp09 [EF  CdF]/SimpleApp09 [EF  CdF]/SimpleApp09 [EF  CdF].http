@@ -1,0 +1,6 @@
+@SimpleApp09__EF__CdF__HostAddress = http://localhost:5280
+
+GET {{SimpleApp09__EF__CdF__HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp02 [System.Data.SqlClient]\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25175CE2-7A77-4D84-987C-6F7610EFC518}|SimpleApp02 [System.Data.SqlClient]\\SimpleApp02 [System.Data.SqlClient].csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp02 [system.data.sqlclient]\\simpleapp02 [system.data.sqlclient]\\controllers\\warehousescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25175CE2-7A77-4D84-987C-6F7610EFC518}|SimpleApp02 [System.Data.SqlClient]\\SimpleApp02 [System.Data.SqlClient].csproj|solutionrelative:simpleapp02 [system.data.sqlclient]\\controllers\\warehousescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25175CE2-7A77-4D84-987C-6F7610EFC518}|SimpleApp02 [System.Data.SqlClient]\\SimpleApp02 [System.Data.SqlClient].csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp02 [system.data.sqlclient]\\simpleapp02 [system.data.sqlclient]\\entities\\warehousesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25175CE2-7A77-4D84-987C-6F7610EFC518}|SimpleApp02 [System.Data.SqlClient]\\SimpleApp02 [System.Data.SqlClient].csproj|solutionrelative:simpleapp02 [system.data.sqlclient]\\entities\\warehousesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25175CE2-7A77-4D84-987C-6F7610EFC518}|SimpleApp02 [System.Data.SqlClient]\\SimpleApp02 [System.Data.SqlClient].csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp02 [system.data.sqlclient]\\simpleapp02 [system.data.sqlclient]\\entities\\iwarehousesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25175CE2-7A77-4D84-987C-6F7610EFC518}|SimpleApp02 [System.Data.SqlClient]\\SimpleApp02 [System.Data.SqlClient].csproj|solutionrelative:simpleapp02 [system.data.sqlclient]\\entities\\iwarehousesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25175CE2-7A77-4D84-987C-6F7610EFC518}|SimpleApp02 [System.Data.SqlClient]\\SimpleApp02 [System.Data.SqlClient].csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp02 [system.data.sqlclient]\\simpleapp02 [system.data.sqlclient]\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25175CE2-7A77-4D84-987C-6F7610EFC518}|SimpleApp02 [System.Data.SqlClient]\\SimpleApp02 [System.Data.SqlClient].csproj|solutionrelative:simpleapp02 [system.data.sqlclient]\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25175CE2-7A77-4D84-987C-6F7610EFC518}|SimpleApp02 [System.Data.SqlClient]\\SimpleApp02 [System.Data.SqlClient].csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp02 [system.data.sqlclient]\\simpleapp02 [system.data.sqlclient]\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25175CE2-7A77-4D84-987C-6F7610EFC518}|SimpleApp02 [System.Data.SqlClient]\\SimpleApp02 [System.Data.SqlClient].csproj|solutionrelative:simpleapp02 [system.data.sqlclient]\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Request.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp02 [System.Data.SqlClient]\\SimpleApp02 [System.Data.SqlClient]\\Models\\Request.cs",
+              "RelativeDocumentMoniker": "SimpleApp02 [System.Data.SqlClient]\\Models\\Request.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp02 [System.Data.SqlClient]\\SimpleApp02 [System.Data.SqlClient]\\Models\\Request.cs",
+              "RelativeToolTip": "SimpleApp02 [System.Data.SqlClient]\\Models\\Request.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T18:49:41.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp02 [System.Data.SqlClient]\\SimpleApp02 [System.Data.SqlClient]\\Program.cs",
+              "RelativeDocumentMoniker": "SimpleApp02 [System.Data.SqlClient]\\Program.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp02 [System.Data.SqlClient]\\SimpleApp02 [System.Data.SqlClient]\\Program.cs",
+              "RelativeToolTip": "SimpleApp02 [System.Data.SqlClient]\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T18:47:05.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WarehousesController.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp02 [System.Data.SqlClient]\\SimpleApp02 [System.Data.SqlClient]\\Controllers\\WarehousesController.cs",
+              "RelativeDocumentMoniker": "SimpleApp02 [System.Data.SqlClient]\\Controllers\\WarehousesController.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp02 [System.Data.SqlClient]\\SimpleApp02 [System.Data.SqlClient]\\Controllers\\WarehousesController.cs",
+              "RelativeToolTip": "SimpleApp02 [System.Data.SqlClient]\\Controllers\\WarehousesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T17:47:46.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IWarehousesRepository.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp02 [System.Data.SqlClient]\\SimpleApp02 [System.Data.SqlClient]\\Entities\\IWarehousesRepository.cs",
+              "RelativeDocumentMoniker": "SimpleApp02 [System.Data.SqlClient]\\Entities\\IWarehousesRepository.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp02 [System.Data.SqlClient]\\SimpleApp02 [System.Data.SqlClient]\\Entities\\IWarehousesRepository.cs",
+              "RelativeToolTip": "SimpleApp02 [System.Data.SqlClient]\\Entities\\IWarehousesRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T17:47:33.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WarehousesRepository.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp02 [System.Data.SqlClient]\\SimpleApp02 [System.Data.SqlClient]\\Entities\\WarehousesRepository.cs",
+              "RelativeDocumentMoniker": "SimpleApp02 [System.Data.SqlClient]\\Entities\\WarehousesRepository.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp02 [System.Data.SqlClient]\\SimpleApp02 [System.Data.SqlClient]\\Entities\\WarehousesRepository.cs",
+              "RelativeToolTip": "SimpleApp02 [System.Data.SqlClient]\\Entities\\WarehousesRepository.cs",
+              "ViewState": "AQIAAOEAAAAAAAAAAAAkwP4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T17:04:47.223Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

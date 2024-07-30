@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\SimpleApp 02 [Subset Ordered Bag XOR]\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{412AD1F9-F408-421F-8EDB-F4A04F7048DF}|MAS04\\MAS04.csproj|c:\\1 artem\u0060s folder\\c#\\console app\\simpleapp 02 [subset ordered bag xor]\\mas04\\models\\serviceagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412AD1F9-F408-421F-8EDB-F4A04F7048DF}|MAS04\\MAS04.csproj|solutionrelative:mas04\\models\\serviceagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412AD1F9-F408-421F-8EDB-F4A04F7048DF}|MAS04\\MAS04.csproj|c:\\1 artem\u0060s folder\\c#\\console app\\simpleapp 02 [subset ordered bag xor]\\mas04\\models\\mammal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412AD1F9-F408-421F-8EDB-F4A04F7048DF}|MAS04\\MAS04.csproj|solutionrelative:mas04\\models\\mammal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412AD1F9-F408-421F-8EDB-F4A04F7048DF}|MAS04\\MAS04.csproj|c:\\1 artem\u0060s folder\\c#\\console app\\simpleapp 02 [subset ordered bag xor]\\mas04\\models\\hamster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412AD1F9-F408-421F-8EDB-F4A04F7048DF}|MAS04\\MAS04.csproj|solutionrelative:mas04\\models\\hamster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412AD1F9-F408-421F-8EDB-F4A04F7048DF}|MAS04\\MAS04.csproj|c:\\1 artem\u0060s folder\\c#\\console app\\simpleapp 02 [subset ordered bag xor]\\mas04\\models\\hairsalon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412AD1F9-F408-421F-8EDB-F4A04F7048DF}|MAS04\\MAS04.csproj|solutionrelative:mas04\\models\\hairsalon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412AD1F9-F408-421F-8EDB-F4A04F7048DF}|MAS04\\MAS04.csproj|c:\\1 artem\u0060s folder\\c#\\console app\\simpleapp 02 [subset ordered bag xor]\\mas04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412AD1F9-F408-421F-8EDB-F4A04F7048DF}|MAS04\\MAS04.csproj|solutionrelative:mas04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412AD1F9-F408-421F-8EDB-F4A04F7048DF}|MAS04\\MAS04.csproj|c:\\1 artem\u0060s folder\\c#\\console app\\simpleapp 02 [subset ordered bag xor]\\mas04\\models\\bankprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412AD1F9-F408-421F-8EDB-F4A04F7048DF}|MAS04\\MAS04.csproj|solutionrelative:mas04\\models\\bankprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412AD1F9-F408-421F-8EDB-F4A04F7048DF}|MAS04\\MAS04.csproj|c:\\1 artem\u0060s folder\\c#\\console app\\simpleapp 02 [subset ordered bag xor]\\mas04\\models\\zebra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412AD1F9-F408-421F-8EDB-F4A04F7048DF}|MAS04\\MAS04.csproj|solutionrelative:mas04\\models\\zebra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Mammal.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\SimpleApp 02 [Subset Ordered Bag XOR]\\MAS04\\Models\\Mammal.cs",
+              "RelativeDocumentMoniker": "MAS04\\Models\\Mammal.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\SimpleApp 02 [Subset Ordered Bag XOR]\\MAS04\\Models\\Mammal.cs",
+              "RelativeToolTip": "MAS04\\Models\\Mammal.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T08:46:40.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Hamster.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\SimpleApp 02 [Subset Ordered Bag XOR]\\MAS04\\Models\\Hamster.cs",
+              "RelativeDocumentMoniker": "MAS04\\Models\\Hamster.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\SimpleApp 02 [Subset Ordered Bag XOR]\\MAS04\\Models\\Hamster.cs",
+              "RelativeToolTip": "MAS04\\Models\\Hamster.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAIA6wBgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T08:45:47.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HairSalon.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\SimpleApp 02 [Subset Ordered Bag XOR]\\MAS04\\Models\\HairSalon.cs",
+              "RelativeDocumentMoniker": "MAS04\\Models\\HairSalon.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\SimpleApp 02 [Subset Ordered Bag XOR]\\MAS04\\Models\\HairSalon.cs",
+              "RelativeToolTip": "MAS04\\Models\\HairSalon.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAA/wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T08:44:36.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BankProfile.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\SimpleApp 02 [Subset Ordered Bag XOR]\\MAS04\\Models\\BankProfile.cs",
+              "RelativeDocumentMoniker": "MAS04\\Models\\BankProfile.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\SimpleApp 02 [Subset Ordered Bag XOR]\\MAS04\\Models\\BankProfile.cs",
+              "RelativeToolTip": "MAS04\\Models\\BankProfile.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T08:22:26.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Zebra.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\SimpleApp 02 [Subset Ordered Bag XOR]\\MAS04\\Models\\Zebra.cs",
+              "RelativeDocumentMoniker": "MAS04\\Models\\Zebra.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\SimpleApp 02 [Subset Ordered Bag XOR]\\MAS04\\Models\\Zebra.cs",
+              "RelativeToolTip": "MAS04\\Models\\Zebra.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAA6wDEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T21:16:57.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\SimpleApp 02 [Subset Ordered Bag XOR]\\MAS04\\Program.cs",
+              "RelativeDocumentMoniker": "MAS04\\Program.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\SimpleApp 02 [Subset Ordered Bag XOR]\\MAS04\\Program.cs",
+              "RelativeToolTip": "MAS04\\Program.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAADAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T21:15:39.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceAgent.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\SimpleApp 02 [Subset Ordered Bag XOR]\\MAS04\\Models\\ServiceAgent.cs",
+              "RelativeDocumentMoniker": "MAS04\\Models\\ServiceAgent.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\Console App\\SimpleApp 02 [Subset Ordered Bag XOR]\\MAS04\\Models\\ServiceAgent.cs",
+              "RelativeToolTip": "MAS04\\Models\\ServiceAgent.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAiwHAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T21:03:33.313Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

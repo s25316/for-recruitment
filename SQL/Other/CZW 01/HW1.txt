@@ -1,0 +1,103 @@
+Skrypt tworzący bazę dla MS SQL oraz Oracle znajduje się na ftp/pawell/PRO/Hotel. Jest tam też diagram związków encji.
+
+Wypisz wszystkie rezerwacje Ferdynanda Kiepskiego.
+Wypisz dane wszystkich gości, wraz z rezerwacjami. Uwzględnij osoby, które nie miały ani jednej rezerwacji.
+Wypisz gości, którzy nie posiadają rabatu. Posortuj według nazwisk.
+Wypisz klientów, którzy co najmniej raz wynajęli pokój luksusowy.
+Wypisz numery pokoi wynajmowanych przez Andrzeja Nowaka.
+Znajdź pokój z największą liczbą miejsc.
+Wypisz imiona i nazwiska gości wraz z liczbą rezerwacji. Nie wypisuj gości, którzy mają mniej niż 3 rezerwacje.
+Znajdź najdłużej trwającą rezerwację. Podaj imię i nazwisko klienta.
+Wypisz, ile maksymalnie osób w pokojach luksusowych może przyjąć hotel jednocześnie.
+Podaj liczbę pokoi w każdej kategorii.
+Znajdź pokój, który nie był nigdy wynajmowany.
+Znajdź klientów, którzy korzystali z usług hotelu tylko raz.
+
+--MSSQL
+--1. Wypisz wszystkie rezerwacje Ferdynanda Kiepskiego.
+
+SELECT IDREZERWACJA
+FROM GOSC JOIN REZERWACJA ON GOSC.IDGOSC = REZERWACJA.IDGOSC
+WHERE IMIE = 'Ferdynand' AND NAZWISKO = 'Kiepski';
+
+--2 Wypisz dane wszystkich gości, wraz z rezerwacjami. Uwzględnij osoby, które nie miały ani jednej rezerwacji.
+
+SELECT GOSC.IDGOSC, IMIE, NAZWISKO, IDREZERWACJA
+FROM GOSC LEFT JOIN REZERWACJA ON GOSC.IDGOSC = REZERWACJA.IDGOSC;
+
+--3 Wypisz gości, którzy nie posiadają rabatu. Posortuj według nazwisk.
+
+SELECT IDGOSC, IMIE, NAZWISKO, PROCENT_RABATU
+FROM GOSC
+WHERE Isnull (PROCENT_RABATU, 0) <= 0
+ORDER BY NAZWISKO;
+
+--4 Wypisz klientów, którzy co najmniej raz wynajęli pokój luksusowy.
+
+SELECT GOSC.IDGOSC, IMIE, NAZWISKO
+FROM GOSC 
+JOIN REZERWACJA ON GOSC.IDGOSC = REZERWACJA.IDGOSC
+JOIN POKOJ ON REZERWACJA.NRPOKOJU = POKOJ.NRPOKOJU
+JOIN KATEGORIA ON POKOJ.IDKATEGORIA = KATEGORIA .IDKATEGORIA 
+WHERE NAZWA = 'luksusowy';
+
+--5 Wypisz numery pokoi wynajmowanych przez Andrzeja Nowaka.
+
+SELECT POKOJ.NRPOKOJU
+FROM GOSC 
+JOIN REZERWACJA ON GOSC.IDGOSC = REZERWACJA.IDGOSC
+JOIN POKOJ ON REZERWACJA.NRPOKOJU = POKOJ.NRPOKOJU 
+WHERE IMIE = 'Andrzej' AND NAZWISKO = 'Nowak';
+
+--6 Znajdź pokój z największą liczbą miejsc.
+
+SELECT NRPOKOJU
+FROM POKOJ
+WHERE LICZBA_MIEJSC = 
+(
+	SELECT MAX (LICZBA_MIEJSC)
+	FROM POKOJ
+);
+
+--7 Wypisz imiona i nazwiska gości wraz z liczbą rezerwacji. Nie wypisuj gości, którzy mają mniej niż 3 rezerwacje.
+
+SELECT IMIE, NAZWISKO, COUNT (IDREZERWACJA) 'COUNT'
+FROM GOSC JOIN REZERWACJA ON GOSC.IDGOSC = REZERWACJA.IDGOSC
+GROUP BY IMIE, NAZWISKO
+HAVING COUNT (IDREZERWACJA) >= 3;
+
+--8 Znajdź najdłużej trwającą rezerwację. Podaj imię i nazwisko klienta.
+
+SELECT IMIE, NAZWISKO
+FROM GOSC JOIN REZERWACJA ON GOSC.IDGOSC = REZERWACJA.IDGOSC
+WHERE (DATADO - DATAOD) = 
+(
+	SELECT MAX (DATADO - DATAOD) 
+	FROM REZERWACJA
+);
+
+--9 Wypisz, ile maksymalnie osób w pokojach luksusowych może przyjąć hotel jednocześnie.
+
+SELECT SUM (LICZBA_MIEJSC)
+FROM POKOJ JOIN KATEGORIA ON POKOJ.IDKATEGORIA = KATEGORIA.IDKATEGORIA
+WHERE NAZWA = 'luksusowy';
+
+--10 Podaj liczbę pokoi w każdej kategorii.
+
+SELECT KATEGORIA.IDKATEGORIA, COUNT (NRPOKOJU) 'COUNT OF ROOMS'
+FROM POKOJ JOIN KATEGORIA ON POKOJ.IDKATEGORIA = KATEGORIA.IDKATEGORIA
+GROUP BY KATEGORIA.IDKATEGORIA;
+
+--11 Znajdź pokój, który nie był nigdy wynajmowany.
+
+SELECT POKOJ.NRPOKOJU
+FROM POKOJ LEFT JOIN REZERWACJA ON POKOJ.NRPOKOJU = REZERWACJA.NRPOKOJU
+WHERE IDREZERWACJA IS NULL;
+
+
+--12 Znajdź klientów, którzy korzystali z usług hotelu tylko raz.
+
+SELECT GOSC.IDGOSC, COUNT (IDREZERWACJA)
+FROM GOSC JOIN REZERWACJA ON GOSC.IDGOSC = REZERWACJA.IDGOSC
+GROUP BY GOSC.IDGOSC
+HAVING COUNT (IDREZERWACJA) = 1;

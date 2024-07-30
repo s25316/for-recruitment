@@ -1,0 +1,193 @@
+--CEL NIE DAWAC ZIENIAC LISTY KRAJOW PONIEWAZ TO ZBYT RZADKO ZDARA ZIE I NA TO MA WPLYW ONZ
+
+CREATE OR REPLACE TRIGGER del_Panstwo
+BEFORE INSERT OR UPDATE OR DELETE ON Panstwo
+BEGIN
+    Raise_application_error(-20100,'Nie mozna wykonac dzialan na tabeli, lista krajow ONZ nie zmienila sie!!!');
+END;
+DROP TRIGGER del_Panstwo;
+
+--CEL NIE DAWAC WSTAWIAC OSOB O TAKIM SAMYM PESELU LUB NR TELEFONU PONIWAZ TO POWODUJE PROBLEMY I BLEDY W SYSTEMIE I PRZY KOMUNIKACJII Z KIENTEM
+--TAKŻE NIE DAWAC USUWAC
+CREATE OR REPLACE TRIGGER OSOBY
+BEFORE INSERT OR UPDATE OR DELETE ON Osoba 
+FOR EACH ROW
+   DECLARE 
+   V_tel_count INT;
+   V_PESEL_count INT;
+
+
+BEGIN
+
+    SELECT COUNT (1) INTO V_tel_count FROM OSOBA o WHERE o.Num_Tel =:NEW.Num_Tel;
+    SELECT COUNT (1) INTO V_PESEL_count FROM OSOBA o WHERE o.PESEL =:NEW.PESEL;
+    if DELETING  THEN
+        Raise_application_error(-20100,'Nie mozna usuwac osob');
+    ELSIF (UPDATING or INSERTING) AND (V_tel_count >0 OR V_PESEL_count>0 )   THEN
+        IF V_tel_count>0 THEN
+        Raise_application_error(-20100,'Osoba  z tym telefonem juz istnieje');
+        ELSE Raise_application_error(-20100,'Osoba  z tym telefonem juz istnieje');
+        END IF;
+    END IF;
+END;
+DROP TRIGGER OSOBY;
+
+--cel wsytawiać pracowników czy klientów i ich bezposredniego przelozonego lub odrdce 1 = dla pracownikow-przelozonych 2 dla klientow = doradcow inne kody niedialaja
+
+CREATE OR REPLACE PROCEDURE PROC2
+(
+ PESEL1 CHAR,
+ PESEL2 CHAR,
+ CHOISE INT 
+ )
+AS
+id1 integer;
+id2 integer;
+id1_EXIST integer;
+id2_EXIST integer;
+id1_EXIST_pracownicy integer;
+BEGIN
+        IF PESEL1 !=PESEL2 THEN
+            SELECT COUNT (id) INTO id1_EXIST FROM OSOBA WHERE PESEL =PESEL1;
+            SELECT COUNT (id) INTO id2_EXIST FROM OSOBA WHERE PESEL =PESEL2;
+            
+            IF id1_EXIST >0 AND id2_EXIST >0 THEN
+                
+                SELECT id INTO ID1 FROM OSOBA WHERE PESEL =PESEL1;
+                SELECT id INTO ID2 FROM OSOBA WHERE PESEL =PESEL2;                
+                
+
+                IF CHOISE=1 THEN --Pracownicy TABELA
+                    SELECT COUNT (Osoba_id) INTO id1_EXIST_pracownicy FROM Pracownicy WHERE Osoba_id  =id1;  
+                    if id1_EXIST_pracownicy >0 THEN
+                    UPDATE Pracownicy SET Osoba_id_Szef = id2 WHERE Osoba_id  =id1;
+                    ELSE 
+                    INSERT INTO Pracownicy (Osoba_id,Osoba_id_Szef) VALUES (id1 , id2);
+                    END IF;
+                ELSIF CHOISE=2 then
+                    SELECT COUNT (Osoba_id) INTO id1_EXIST_pracownicy FROM Klient WHERE Osoba_id  =id1;  
+                    if id1_EXIST_pracownicy >0 THEN
+                            UPDATE Klient SET Pracownicy_Osoba_id  = id2 WHERE Osoba_id  =id1;
+                    ELSE 
+                            INSERT INTO Klient  (Osoba_id,Pracownicy_Osoba_id) VALUES (id1 , id2);
+                    END IF;
+                ELSE 
+                    dbms_output.put_line('BRAK KODU DYSPOZYCJI ');
+                END IF;
+            ELSE 
+                IF id1_EXIST=0 THEN
+                    dbms_output.put_line('BRAK OSOBY ZA NE PESEL '||PESEL1 );
+                ELSE 
+                    dbms_output.put_line('BRAK OSOBY ZA NE PESEL '||PESEL2 );
+                END IF;
+            END IF;
+        ELSE
+             dbms_output.put_line('OSOBA NIE MOZE SAMA SOBIE PODLEGAC');
+        END IF; 
+END;
+EXECUTE  PROC2 ('88011951427', '78062794768', 1);
+
+
+CREATE OR REPLACE PROCEDURE INSERT_OSOBA (
+    v_Imie Osoba.Imie%type,
+    v_Nazwisko Osoba.Nazwisko%type,
+    v_PESEL Osoba.PESEL%type,
+    v_NazwiskoPanMat Osoba.NazwiskoPanMat%type,
+    v_Num_Tel Osoba.Num_Tel%type,
+    v_Imie_Ojca Osoba.Imie_Ojca%type,
+    v_Imie_Matki Osoba.Imie_Matki%type,
+    v_Dzien_Urodzenia Osoba.Dzien_Urodzenia%type,
+    v_Miejscowosc_Urodzenia varchar2,
+    v_Ulica_korespond varchar2,
+    v_NrDomu_korespond varchar2,
+    v_NumerMieszkania_korespond varchar2,
+    v_Miejscowosc_korespond varchar2,
+    v_Ulica_zamiesz varchar2,
+    v_NrDomu_zamiesz varchar2,
+    v_NumerMieszkania_zamiesz varchar2,
+    v_Miejscowosc_zamiesz varchar2
+    )
+AS
+v_ifexist INTEGER;
+v_ifexistPESEL INTEGER;
+v_maxIdOsoby INTEGER;
+v_Data_Rozpoczencia_Relacji Osoba.Data_Rozpoczencia_Relacji%type;
+v_count_ur int;
+v_Miejscowosc_Urodzenia_id int;
+v_Miejscowosc_korespond_id int;
+v_Miejscowosc_zamiesz_id int;
+
+v_zamiesz int;
+v_korespond int;
+v_zamiesz_id int;
+v_korespond_id int;
+
+--v_Data_Konca_Relacji Osoba.Data_Konca_Relacji%type,
+--v_Adres_Korespondencji Osoba.Adres_Korespondencji%type,
+--v_Adres_Zamieszkania Osoba.Adres_Zamieszkania%type
+BEGIN
+    --VERIFICATION HOW MUCH PEOPLE IN TABLE
+    select count (1) into v_ifexist
+    from Osoba;
+    --VERIFICATION HOW MUCH PEOPLE IN TABLE BY PESEL
+    select count (1) into v_ifexistPESEL
+    from OSOBA where PESEL=v_PESEL;
+    --VERIFICATION MAXIMUM ID IN TABLE 
+    select MAX (id) into v_maxIdOsoby
+    from OSOBA;
+    v_maxIdOsoby :=v_maxIdOsoby+1;
+    --GETTING TODAY DATE
+    SELECT
+        to_date(CURRENT_DATE,'yyyy-mm-dd') into v_Data_Rozpoczencia_Relacji
+    FROM dual;
+    --GETTING MIEJSCE URODZENIA 
+    select count (1) into v_count_ur from Miejscowosc where Nazwa =v_Miejscowosc_Urodzenia;
+     if v_count_ur > 0 then
+        select id  into v_Miejscowosc_Urodzenia_id from Miejscowosc where Nazwa =v_Miejscowosc_Urodzenia;
+     else 
+        select max (id)  into v_Miejscowosc_Urodzenia_id from Miejscowosc ;
+        v_Miejscowosc_Urodzenia_id :=v_Miejscowosc_Urodzenia_id+1;
+        INSERT INTO Miejscowosc (id, Nazwa, Kod_Pocztowy, Panstwo_id) VALUES (v_Miejscowosc_Urodzenia_id,v_Miejscowosc_Urodzenia, '00-000', 1);
+     end if;
+    --GETTING korespond
+    select count (1) into v_count_ur from Miejscowosc where Nazwa =v_Miejscowosc_korespond;
+     if v_count_ur > 0 then
+        select id  into v_Miejscowosc_korespond_id from Miejscowosc where Nazwa =v_Miejscowosc_korespond;
+     else 
+        select max (id)  into v_Miejscowosc_korespond_id from Miejscowosc ;
+        v_Miejscowosc_korespond_id :=v_Miejscowosc_korespond_id+1;
+        INSERT INTO Miejscowosc (id, Nazwa, Kod_Pocztowy, Panstwo_id) VALUES (v_Miejscowosc_korespond_id,v_Miejscowosc_korespond, '00-000', 1);
+     end if;
+    --GETTING zaieszkania
+     select count (1) into v_count_ur from Miejscowosc where Nazwa =v_Miejscowosc_zamiesz;
+     if v_count_ur > 0 then
+        select id  into v_Miejscowosc_zamiesz_id from Miejscowosc where Nazwa =v_Miejscowosc_zamiesz;
+     else 
+        select max (id)  into v_Miejscowosc_zamiesz_id from Miejscowosc ;
+        v_Miejscowosc_zamiesz_id :=v_Miejscowosc_zamiesz_id+1;
+        INSERT INTO Miejscowosc (id, Nazwa, Kod_Pocztowy, Panstwo_id) VALUES (v_Miejscowosc_zamiesz_id,v_Miejscowosc_zamiesz, '00-000', 1);
+     end if;
+     --GETTING korespond full v_korespond_id
+        select count (1) into v_korespond from Adres  where Ulica=v_Ulica_korespond and  NrDomu=v_NrDomu_korespond and NumerMieszkania=v_NumerMieszkania_korespond and Miejscowosc_id =v_Miejscowosc_korespond_id;
+     if v_korespond > 0 then
+        select id into v_korespond_id from Adres  where Ulica=v_Ulica_korespond and  NrDomu=v_NrDomu_korespond and NumerMieszkania=v_NumerMieszkania_korespond and Miejscowosc_id =v_Miejscowosc_korespond_id;
+     else 
+        select max (id) into v_korespond_id from Adres ;
+        v_korespond_id :=v_korespond_id+1;
+        INSERT INTO Adres (id, Ulica, NrDomu, NumerMieszkania, Miejscowosc_id) VALUES (v_korespond_id,v_Ulica_korespond, v_NrDomu_korespond,v_NumerMieszkania_korespond, v_Miejscowosc_korespond_id);
+     end if;
+     --GETTING korespond full v_zamiesz int; v_zamiesz_id int;
+        select count (1) into v_zamiesz from Adres  where Ulica=v_Ulica_zamiesz and  NrDomu=v_NrDomu_zamiesz and NumerMieszkania=v_NumerMieszkania_zamiesz and Miejscowosc_id =v_Miejscowosc_zamiesz_id;
+     if v_zamiesz > 0 then
+        select id into v_zamiesz_id from Adres  where Ulica=v_Ulica_zamiesz and  NrDomu=v_NrDomu_zamiesz and NumerMieszkania=v_NumerMieszkania_zamiesz and Miejscowosc_id =v_Miejscowosc_zamiesz_id;
+     else 
+        select max (id) into v_zamiesz_id from Adres ;
+        v_zamiesz_id :=v_zamiesz_id+1;
+        INSERT INTO Adres (id, Ulica, NrDomu, NumerMieszkania, Miejscowosc_id) VALUES (v_zamiesz_id ,v_Ulica_zamiesz, v_NrDomu_zamiesz,v_NumerMieszkania_zamiesz, v_Miejscowosc_zamiesz_id);
+     end if;
+    
+     INSERT  INTO Osoba (id,Imie,Nazwisko,PESEL,NazwiskoPanMat,Num_Tel,Imie_Ojca,Imie_Matki,Dzien_Urodzenia,Miejscowosc_id_Urodzenia,Data_Rozpoczencia_Relacji,Data_Konca_Relacji,Adres_Korespondencji,Adres_Zamieszkania)
+     VALUES (v_maxIdOsoby,v_Imie, v_Nazwisko ,v_PESEL,v_NazwiskoPanMat,v_Num_Tel,v_Imie_Ojca,v_Imie_Matki, v_Dzien_Urodzenia, v_Miejscowosc_Urodzenia_id,v_Data_Rozpoczencia_Relacji, NULL, 
+     v_Miejscowosc_korespond_id,v_Miejscowosc_zamiesz_id);
+    
+END;
