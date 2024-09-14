@@ -5,7 +5,7 @@ namespace BialaListaVat.Models.SingleById.CorrectResponse
     public class Result
     {
         [JsonPropertyName("subject")]
-        public Subject Subject { get; set; } = null!;
+        public SingleCompany Subject { get; set; } = null!;
 
         [JsonPropertyName("requestDateTime")]
         public string? RequestDateTime { get; set; } = null;

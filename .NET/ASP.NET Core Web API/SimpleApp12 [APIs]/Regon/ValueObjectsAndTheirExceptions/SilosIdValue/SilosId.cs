@@ -1,14 +1,23 @@
-﻿using System.Xml.Schema;
+﻿using Regon.Factories;
+using System.Reflection;
 using System.Xml;
+using System.Xml.Schema;
 using System.Xml.Serialization;
 
 namespace Regon.ValueObjectsAndTheirExceptions.SilosIdValue
 {
-    public class SilosId : IXmlSerializable
+    /// <summary>
+    /// Miejsce prowadzenia działalności
+    /// </summary>
+    /// <exception cref="SilosIdException"></exception>
+    public record SilosId : IXmlSerializable
     {
-        public int Value { get; private set; } 
+        public int Value { get; private set; }
         public string Description { get; private set; } = null!;
-
+        //===========================================================================================================
+        //===========================================================================================================
+        //Xml Adapter
+        //===========================================================================================================
         public XmlSchema? GetSchema() => null;
 
         public void ReadXml(XmlReader reader)
@@ -21,7 +30,10 @@ namespace Regon.ValueObjectsAndTheirExceptions.SilosIdValue
         {
             writer.WriteString(Description);
         }
-
+        //===========================================================================================================
+        //===========================================================================================================
+        //Private Methods
+        //===========================================================================================================
         private string GetDescriptionByValue(int value)
         {
             var descriptionDictionary = new Dictionary<int, string>
@@ -36,7 +48,12 @@ namespace Regon.ValueObjectsAndTheirExceptions.SilosIdValue
             {
                 return description;
             }
-            throw new SilosIdException(Messages.TypInResponseDaneHasChanged);
+            throw new SilosIdException(MessagesFactory.GenerateExeptionMessageSilosIdNewValue
+                (
+                this.GetType(),
+                MethodBase.GetCurrentMethod(),
+                value
+                ));
         }
     }
 }

@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>SimpleApp12__APIs_</RootNamespace>
+    <UserSecretsId>d0371728-f416-4589-a282-6cc9ef58c9f4</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

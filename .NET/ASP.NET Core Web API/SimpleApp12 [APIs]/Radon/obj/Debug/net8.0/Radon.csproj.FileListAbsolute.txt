@@ -10,3 +10,5 @@ C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp12 [APIs]\Radon\obj\Debug\n
 C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp12 [APIs]\Radon\obj\Debug\net8.0\refint\Radon.dll
 C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp12 [APIs]\Radon\obj\Debug\net8.0\Radon.pdb
 C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp12 [APIs]\Radon\obj\Debug\net8.0\ref\Radon.dll
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp12 [APIs]\Radon\obj\Debug\net8.0\Radon.Messages.resources
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp12 [APIs]\Radon\obj\Debug\net8.0\Radon.csproj.GenerateResource.cache

@@ -61,11 +61,164 @@ namespace Regon {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &quot;Update Code and Check documentation, documentation has changed in part: \&quot;Opisy kodów zwracanych przez metodę DaneSzukaj w polach Typ i SilosID\&quot;&quot;.
+        ///   Looks up a localized string similar to .
         /// </summary>
-        internal static string TypInResponseDaneHasChanged {
+        internal static string ExceptionMessage {
             get {
-                return ResourceManager.GetString("TypInResponseDaneHasChanged", resourceCulture);
+                return ResourceManager.GetString("ExceptionMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Przoblem z deserializacją, w ramach danej klasy i metody, w ramach danych.
+        /// </summary>
+        internal static string ExceptionMessageDeserializationProblem {
+            get {
+                return ResourceManager.GetString("ExceptionMessageDeserializationProblem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Przoblem z deserializacją lub brak dostępu, w ramach danej klasy i metody, w ramach danych.
+        /// </summary>
+        internal static string ExceptionMessageDeserializationProblemOrHaveNoAcess {
+            get {
+                return ResourceManager.GetString("ExceptionMessageDeserializationProblemOrHaveNoAcess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Klucz nie może być pusty.
+        /// </summary>
+        internal static string ExceptionMessageUserKeyEmpty {
+            get {
+                return ResourceManager.GetString("ExceptionMessageUserKeyEmpty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Klucz jest niepoprawny.
+        /// </summary>
+        internal static string ExceptionMessageUserKeyInvalid {
+            get {
+                return ResourceManager.GetString("ExceptionMessageUserKeyInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to W brak implementacji, w ramach danej klasy i metody, z powodu zaistnianych zmian w innej klasie.
+        /// </summary>
+        internal static string ExeptionMessageClassesChanged {
+            get {
+                return ResourceManager.GetString("ExeptionMessageClassesChanged", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Brak implementacji, w klasie i metodzie, w ramach tych danych.
+        /// </summary>
+        internal static string ExeptionMessageClassesNotImplemented {
+            get {
+                return ResourceManager.GetString("ExeptionMessageClassesNotImplemented", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Należy nadać inna wartość polu, ponieważ one nie spełnia wrunków dla DateOnly lub DateTime.
+        /// </summary>
+        internal static string ExeptionMessageCustomDateOnlyIncorrect {
+            get {
+                return ResourceManager.GetString("ExeptionMessageCustomDateOnlyIncorrect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Należy zaktualizowac, klasę i metodę, dla serializacji z powodu że pojawiła sie nowa klasa dziedzicąca .
+        /// </summary>
+        internal static string ExeptionMessageDanePelneNewClass {
+            get {
+                return ResourceManager.GetString("ExeptionMessageDanePelneNewClass", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Za podanym NIP działalności nie ma.
+        /// </summary>
+        internal static string ExeptionMessageNipCompanyNotExist {
+            get {
+                return ResourceManager.GetString("ExeptionMessageNipCompanyNotExist", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to NIP zawiera 9 cyfr, NIP niepoprawny.
+        /// </summary>
+        internal static string ExeptionMessageNipIncorrect {
+            get {
+                return ResourceManager.GetString("ExeptionMessageNipIncorrect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Za podanym REGON działalności nie ma.
+        /// </summary>
+        internal static string ExeptionMessageRegonCompanyNotExist {
+            get {
+                return ResourceManager.GetString("ExeptionMessageRegonCompanyNotExist", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to REGON składa sie z 9 lub 14 cyfr, REGON niepoprawny.
+        /// </summary>
+        internal static string ExeptionMessageRegonIncorrect {
+            get {
+                return ResourceManager.GetString("ExeptionMessageRegonIncorrect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Struktura informacji zwracanych z REGON API zmieniła sie trzeba wprowadzić zmiany w klase i metodzie, dla danych.
+        /// </summary>
+        internal static string ExeptionMessageStructureOfResponseHasChanged {
+            get {
+                return ResourceManager.GetString("ExeptionMessageStructureOfResponseHasChanged", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Success.
+        /// </summary>
+        internal static string ResponseMessageForAdminSuccess {
+            get {
+                return ResourceManager.GetString("ResponseMessageForAdminSuccess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to UserProblem.
+        /// </summary>
+        internal static string ResponseMessageForAdminUserProblem {
+            get {
+                return ResourceManager.GetString("ResponseMessageForAdminUserProblem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Problem z serwisem zgłoś się do administratora.
+        /// </summary>
+        internal static string ResponseMessageForUserAppProblem {
+            get {
+                return ResourceManager.GetString("ResponseMessageForUserAppProblem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Success.
+        /// </summary>
+        internal static string ResponseMessageForUserSuccess {
+            get {
+                return ResourceManager.GetString("ResponseMessageForUserSuccess", resourceCulture);
             }
         }
     }

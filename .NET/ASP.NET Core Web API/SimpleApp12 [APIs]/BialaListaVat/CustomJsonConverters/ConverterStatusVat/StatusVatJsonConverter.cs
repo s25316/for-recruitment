@@ -10,8 +10,8 @@ namespace BialaListaVat.CustomJsonConverters.ConverterStatusVat
         {
             var enumString = reader.GetString();
 
-            if (string.IsNullOrEmpty(enumString)) 
-            { 
+            if (string.IsNullOrEmpty(enumString))
+            {
                 return StatusVat.Null;
             }
 
@@ -20,7 +20,7 @@ namespace BialaListaVat.CustomJsonConverters.ConverterStatusVat
                 "czynny" => StatusVat.Czynny,
                 "zwolniony" => StatusVat.Zwolniony,
                 "niezarejestrowany" => StatusVat.Niezarejestrowany,
-                _ => throw new JsonException("Invalid value for MyEnum")
+                _ => throw new JsonException($"{Messages.NewValueStatusVat}: {enumString.ToLower()}")
             };
         }
 
@@ -32,7 +32,7 @@ namespace BialaListaVat.CustomJsonConverters.ConverterStatusVat
                 StatusVat.Zwolniony => "Zwolniony",
                 StatusVat.Niezarejestrowany => "Niezarejestrowany",
                 StatusVat.Null => null,
-                _ => throw new JsonException("Invalid value for MyEnum")
+                _ => throw new JsonException($"{Messages.NewEnumStatusVat}: {value.ToString()}")
             };
             writer.WriteStringValue(enumString);
         }

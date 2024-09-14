@@ -9,9 +9,9 @@ namespace Radon.CustomJsonConverters
         {
             var stringNumber = reader.GetString();
 
-            if (string.IsNullOrEmpty(stringNumber)) 
-            { 
-                return null; 
+            if (string.IsNullOrEmpty(stringNumber))
+            {
+                return null;
             }
 
             if (int.TryParse(stringNumber, out var number))

@@ -4,7 +4,21 @@ namespace BialaListaVat.Repositories
 {
     public interface IWhiteListVatRepository
     {
-        Task<ResponseDTO> GetCompanyDataByNipAsync(string nip, CancellationToken cancellation);
-        Task<ResponseDTO> GetCompanyDataByRegonAsync(string regon, CancellationToken cancellation);
+        /// <summary>
+        /// Data default = dzisiaj 
+        /// </summary>
+        /// <param name="nip"></param>
+        /// <param name="cancellation"></param>
+        /// <param name="date">Automaticly choose Today</param>
+        /// <returns></returns>
+        Task<Response> GetCompanyByNipAsync(string nip, CancellationToken cancellation, DateOnly date = default);
+        /// <summary>
+        /// Data default = dzisiaj 
+        /// </summary>
+        /// <param name="regon"></param>
+        /// <param name="cancellation"></param>
+        /// <param name="date">Automaticly choose Today</param>
+        /// <returns></returns>
+        Task<Response> GetCompanyByRegonAsync(string regon, CancellationToken cancellation, DateOnly date = default);
     }
 }

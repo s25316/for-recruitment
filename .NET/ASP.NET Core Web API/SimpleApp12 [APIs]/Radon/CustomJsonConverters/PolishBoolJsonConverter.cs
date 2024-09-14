@@ -9,10 +9,10 @@ namespace Radon.CustomJsonConverters
         {
             var text = reader.GetString();
 
-            if (string.IsNullOrEmpty(text)) 
+            if (string.IsNullOrEmpty(text))
             {
                 return null;
-            }           
+            }
 
             return text.ToLower() switch
             {

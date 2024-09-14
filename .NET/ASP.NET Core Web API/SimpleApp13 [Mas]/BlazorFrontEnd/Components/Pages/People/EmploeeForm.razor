@@ -1,0 +1,66 @@
+﻿@page "/employee-form/{id:guid}"
+@using Application.Repositories;
+@using Application.Repositories.DTOs.AdressPart
+@using Application.Repositories.DTOs.GetPersonByPesel
+@attribute [StreamRendering]
+@rendermode InteractiveServer
+@inject NavigationManager NavigationManager
+@using System.ComponentModel.DataAnnotations
+@using Application.Repositories.DTOs.PersonCreateProfile
+@using Microsoft.AspNetCore.Components.Forms
+@using Application.Repositories.DTOs.EmploeePart
+@using System.Linq
+
+<EditForm Model="@employee" OnValidSubmit="@HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <h3>Employee Information</h3>
+
+
+    <div class="form-group">
+        <label for="position">Position:</label>
+        <InputText id="position" class="form-control" @bind-Value="employee.Position" />
+        <ValidationMessage For="@(() => employee.Position)" />
+    </div>
+
+    <div class="form-group">
+        <label for="position">Competences:</label>
+        <InputText id="position" class="form-control" @bind-Value="Competences" />
+        <ValidationMessage For="@(() => employee.Position)" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</EditForm>
+
+@code {
+    [Inject] public IUseCasesRepository Rep { get; set; }
+
+    [Parameter]
+    public Guid Id { get; set; }
+
+    public string Competences { get; set; } = null!;
+    private EmploeeDtoRequest employee = new EmploeeDtoRequest
+    {
+
+    };
+
+    private async Task HandleValidSubmit()
+    {
+
+        employee.Competences = new List<string>();
+        employee.Competences.Add(Competences);
+
+        employee.Id = Id;
+        // Handle form submission logic here
+        Console.WriteLine("Form submitted!");
+        // For example, send data to an API or process it as needed
+        var g = Guid.Parse("7AC2B4C6-B1CB-422A-BC2C-08DCC9028D52");
+        var result = await Rep.CreateEmploeeAsync(g, employee);
+
+        if (result.IsSuccess)
+        {
+            NavigationManager.NavigateTo($"/");
+        }
+    }
+}

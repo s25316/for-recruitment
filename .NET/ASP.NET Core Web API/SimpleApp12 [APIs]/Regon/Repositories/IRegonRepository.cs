@@ -1,15 +1,37 @@
-﻿using Regon.Models.ResponseDaneSzukaj.Level4;
+﻿using Regon.AggregatesAndEntities.Responses;
 
 namespace Regon.Repositories
 {
     public interface IRegonRepository
     {
-        Task<Regon.Models.ResponseDaneSzukaj.Envelope> GetCompanyBYNIP
+        Task<Response<AggregatesAndEntities.DanePobierzPelnyRaport.CoreResponse.Level5DaneClasses.DanePelne>> GetCompanyByNipSourceDataAsync
+           (
+           string nip,
+           string userKey,
+           CancellationToken cancellation,
+           bool askProductionEndpoint = true
+           );
+        Task<Response<AggregatesAndEntities.DanePobierzPelnyRaport.CustomResponse.Aggregates.Company>> GetCompanyByNipCustomDataAsync
             (
             string nip,
             string userKey,
-            bool askTestApi,
-            CancellationToken cancellation
+            CancellationToken cancellation,
+            bool askProductionEndpoint = true
+            );
+
+        Task<Response<AggregatesAndEntities.DanePobierzPelnyRaport.CoreResponse.Level5DaneClasses.DanePelne>> GetCompanyByRegonSourceDataAsync
+           (
+           string regon,
+           string userKey,
+           CancellationToken cancellation,
+           bool askProductionEndpoint = true
+           );
+        Task<Response<AggregatesAndEntities.DanePobierzPelnyRaport.CustomResponse.Aggregates.Company>> GetCompanyByRegonCustomDataAsync
+            (
+            string regon,
+            string userKey,
+            CancellationToken cancellation,
+            bool askProductionEndpoint = true
             );
     }
 }

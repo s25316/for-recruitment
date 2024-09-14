@@ -1,24 +1,63 @@
-﻿using System.Text.RegularExpressions;
+﻿using Regon.Factories;
+using System.Text.RegularExpressions;
+using System.Xml;
+using System.Xml.Schema;
+using System.Xml.Serialization;
 
 namespace Regon.ValueObjectsAndTheirExceptions.RegonValue
 {
-    public record Regon
+    /// <summary>
+    /// Niepowtarzalny numer nadawany podmiotom gospodarki narodowej i jednostkom lokalnym tych podmiotów w krajowym rejestrze urzędowym podmiotów gospodarki narodowej REGON, niemający ukrytego lub jawnego charakteru znaczącego, określającego cechy podmiotu.
+    /// </summary>
+    /// <exception cref="RegonException"></exception>
+    public record Regon : IXmlSerializable
     {
-        public string Number { get; private set; }
-
-        public Regon(string regon)
+        private string _number = null!;
+        public string Number
         {
-            var regex = new Regex(@"^(\d{9}|\d{14})$");
-            if (!regex.IsMatch(regon))
+            get { return _number; }
+            set
             {
-                throw new RegonException("Niepoprawny REGON");
+                value = RemoveCharacters(value);
+                if (!IsCorrectValue(value))
+                {
+                    throw new RegonException(MessagesFactory.GenerateExeptionMessageRegonIncorrect(value));
+                }
+                _number = value;
             }
-            Number = regon;
         }
 
-        public static explicit operator Regon(string regon)
+        //===========================================================================================================
+        //===========================================================================================================
+        //XML adapter
+        //===========================================================================================================
+        public XmlSchema? GetSchema() => null;
+
+        public void ReadXml(XmlReader reader)
         {
-            return new Regon(regon);
+            Number = reader.ReadElementContentAsString();
+        }
+
+        public void WriteXml(XmlWriter writer)
+        {
+            writer.WriteString(Number);
+        }
+
+        //===========================================================================================================
+        //===========================================================================================================
+        //Private Methods
+        //===========================================================================================================
+        private string RemoveCharacters(string value)
+        {
+            return value
+                .Replace("-", "")
+                .Replace(" ", "")
+                .Trim();
+        }
+        private bool IsCorrectValue(string regon)
+        {
+            var regex = new Regex(@"^(\d{9}|\d{14})$");
+            return regex.IsMatch(regon);
         }
     }
 }

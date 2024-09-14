@@ -1,0 +1,147 @@
+﻿@page "/emploee/{pesel}"
+@using Application.Repositories.DTOs.EmploeePart.MethodGet
+@using Application.Repositories.DTOs.GetPersonByPesel
+@using Application.Repositories;
+@attribute [StreamRendering]
+@rendermode InteractiveServer
+@inject NavigationManager NavigationManager
+
+
+
+@if (EmployeeData == null)
+{ }
+else
+{
+    if (IsSucess)
+    {
+        <div>
+            <h3>Czesc osobowa</h3>
+            <h3>@EmployeeData.FirstName @EmployeeData.LastName</h3>
+            <p>PESEL: @EmployeeData.Pesel</p>
+            <p>Data urodzenia: @EmployeeData.BirthDate.ToString("yyyy-MM-dd")</p>
+            <p>Email: @EmployeeData.Email</p>
+            <p>Numer telefonu: @EmployeeData.PhoneNumber</p>
+            <p>Dokumenty:</p>
+            <ul>
+                @foreach (var doc in EmployeeData.Documents)
+                {
+                    <li>@doc.DocumentType: @doc.Number, @doc.Country (Ważny od: @doc.From.ToString("yyyy-MM-dd") do: @doc.To)</li>
+                }
+            </ul>
+            <p></p>
+            @if (EmployeeData.EmployeeProfile != null)
+            {
+                <div>
+                    <h1>Employee Details</h1>
+
+                    <h3>Position: @Employee.Position</h3>
+                    <h4>Competences:</h4>
+                    <ul>
+                        @foreach (var competence in Employee.Competences)
+                        {
+                            <li>@competence</li>
+                        }
+                    </ul>
+
+                    <h4>Employment History:</h4>
+                    <ul>
+                        @foreach (var job in Employee.EmploymentHistory)
+                        {
+                            <li>
+                                <b>@job.Position</b> at @job.Company.Name (@job.From.ToShortDateString() - @(job.To.HasValue ? job.To.Value.ToShortDateString() : "Present"))
+                            </li>
+                        }
+                    </ul>
+
+                    <h4>Education History:</h4>
+                    <ul>
+                        @foreach (var edu in Employee.EducationHistory)
+                        {
+                            <li>
+                                <b>@edu.Degree</b> in @edu.Fild at @edu.University.Name (@edu.From.ToShortDateString() - @(edu.To.HasValue ? edu.To.Value.ToShortDateString() : "Present"))
+                            </li>
+                        }
+                    </ul>
+
+                    <h4>Clients:</h4>
+                    <ul>
+                        @foreach (var client in Employee.Clients)
+                        {
+                            <li>Client Account: @client.AccountNumber</li>
+                        }
+                    </ul>
+
+                    <h4>Departments:</h4>
+                    <div>
+                        <h5>As Employee:</h5>
+                        <ul>
+                            @foreach (var dept in Employee.AsEmploeeInDepartments)
+                            {
+                                <li>@dept.Name (Email: @dept.Email)</li>
+                            }
+                        </ul>
+
+                        <h5>As Manager:</h5>
+                        <ul>
+                            @foreach (var dept in Employee.AsManagerInDepartments)
+                            {
+                                <li>@dept.Name (Email: @dept.Email)</li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            }
+            <button class="btn btn-primary" @onclick="() => RedirectToPersonPageCreateProfilew(EmployeeData.Id)">
+                Stworz profil
+            </button>
+        </div>
+    }
+    else
+    {
+        <div>@Mesaage</div>
+    }
+
+}
+
+@code {
+    [Parameter]
+    public string Pesel { get; set; } = null!;
+
+    [Parameter]
+    public PersonDtoResponse? EmployeeData { get; set; }
+    [Parameter]
+    public EmploeeDtoResponse? Employee { get; set; }
+    [Parameter]
+    public bool IsSucess { get; set; }
+
+    [Parameter]
+    public string Mesaage { get; set; }
+
+    [Inject]
+    public IUseCasesRepository Rep { get; set; }
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        var result = await Rep.GetPersonByPeselAsync(Pesel);
+        if (result.Value != null)
+        {
+            var result2 = await Rep.GetEmploeeDataAsync(result.Value.Id);
+            Employee = result2.Value;
+        }
+        IsSucess = result.IsSuccess;
+        Mesaage = result.Message;
+        EmployeeData = result.Value;
+    }
+
+    public void NavigateToAnotherPage(Guid id)
+    {
+        NavigationManager.NavigateTo($"/emploee/{id}");
+    }
+
+    public void RedirectToPersonPageCreateProfilew(Guid id)
+    {
+        NavigationManager.NavigateTo($"/education-history-form/{id}");
+    }
+}
+

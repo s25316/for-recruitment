@@ -1,0 +1,100 @@
+﻿@page "/person/{pesel}"
+@using Application.Repositories.DTOs.EmploeePart.MethodGet
+@using Application.Repositories.DTOs.GetPersonByPesel
+@using Application.Repositories;
+@attribute [StreamRendering]
+@rendermode InteractiveServer
+@inject NavigationManager NavigationManager
+
+
+
+@if (EmployeeData == null)
+{ }
+else
+{
+    if (IsSucess)
+    {
+        <div>
+            <h3>Czesc osobowa</h3>
+            <h3>@EmployeeData.FirstName @EmployeeData.LastName</h3>
+            <p>PESEL: @EmployeeData.Pesel</p>
+            <p>Data urodzenia: @EmployeeData.BirthDate.ToString("yyyy-MM-dd")</p>
+            <p>Email: @EmployeeData.Email</p>
+            <p>Numer telefonu: @EmployeeData.PhoneNumber</p>
+            <p>Dokumenty:</p>
+            <ul>
+                @foreach (var doc in EmployeeData.Documents)
+                {
+                    <li>@doc.DocumentType: @doc.Number, @doc.Country (Ważny od: @doc.From.ToString("yyyy-MM-dd") do: @doc.To)</li>
+                }
+            </ul>
+            <p></p>
+            @if (EmployeeData.EmployeeProfile != null)
+            {
+                <button class="btn btn-primary" @onclick="() =>  NavigateToAnotherPage(EmployeeData.Pesel)">
+                    Przejdź  strony Managera
+                </button>
+
+            }
+            else
+            {
+
+                <button class="btn btn-primary" @onclick="() => NavigateToAnotherPageE(EmployeeData.Id)">
+                    Stworz profil
+                </button>
+            }
+            @if (EmployeeData.ClientProfile != null)
+            {
+                <h3>Czesc klientcka</h3>
+                <p>Nr Rachunku: @EmployeeData.ClientProfile?.AccountNumber</p>
+                <p></p>
+                <h4>Doradca</h4>
+                <p>Id: @EmployeeData.ClientProfile?.AccountManager.Id</p>
+                <p>Pozycja: @EmployeeData.ClientProfile?.AccountManager.Position</p>
+                <p>Kompetencje: @string.Join(", ", EmployeeData.ClientProfile?.AccountManager.Competences ?? new List<string>())</p>
+            }
+        </div>
+    }
+    else
+    {
+        <div>@Mesaage</div>
+    }
+
+}
+
+@code {
+    [Parameter]
+    public string Pesel { get; set; } = null!;
+
+    [Parameter]
+    public PersonDtoResponse? EmployeeData { get; set; }
+    [Parameter]
+    public EmploeeDtoResponse? Employee { get; set; }
+    [Parameter]
+    public bool IsSucess { get; set; }
+
+    [Parameter]
+    public string Mesaage { get; set; }
+
+    [Inject] 
+    public IUseCasesRepository Rep { get; set; }    
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        var result = await Rep.GetPersonByPeselAsync(Pesel);
+        IsSucess = result.IsSuccess;
+        Mesaage = result.Message;
+        EmployeeData = result.Value;
+    }
+
+    public void NavigateToAnotherPage(string pesel)
+    {
+        NavigationManager.NavigateTo($"/emploee/{pesel}");
+    }
+
+    public void NavigateToAnotherPageE(Guid id)
+    {
+        NavigationManager.NavigateTo($"/employee-form/{id}");
+    }
+}

@@ -117,7 +117,59 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="TypInResponseDaneHasChanged" xml:space="preserve">
-    <value>"Update Code and Check documentation, documentation has changed in part: \"Opisy kodów zwracanych przez metodę DaneSzukaj w polach Typ i SilosID\""</value>
+  <data name="ExceptionMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ExceptionMessageDeserializationProblem" xml:space="preserve">
+    <value>Przoblem z deserializacją, w ramach danej klasy i metody, w ramach danych</value>
+  </data>
+  <data name="ExceptionMessageDeserializationProblemOrHaveNoAcess" xml:space="preserve">
+    <value>Przoblem z deserializacją lub brak dostępu, w ramach danej klasy i metody, w ramach danych</value>
+  </data>
+  <data name="ExceptionMessageUserKeyEmpty" xml:space="preserve">
+    <value>Klucz nie może być pusty</value>
+  </data>
+  <data name="ExceptionMessageUserKeyInvalid" xml:space="preserve">
+    <value>Klucz jest niepoprawny</value>
+    <comment>User have Key which invalid</comment>
+  </data>
+  <data name="ExeptionMessageClassesChanged" xml:space="preserve">
+    <value>W brak implementacji, w ramach danej klasy i metody, z powodu zaistnianych zmian w innej klasie</value>
+  </data>
+  <data name="ExeptionMessageClassesNotImplemented" xml:space="preserve">
+    <value>Brak implementacji, w klasie i metodzie, w ramach tych danych</value>
+  </data>
+  <data name="ExeptionMessageCustomDateOnlyIncorrect" xml:space="preserve">
+    <value>Należy nadać inna wartość polu, ponieważ one nie spełnia wrunków dla DateOnly lub DateTime</value>
+  </data>
+  <data name="ExeptionMessageDanePelneNewClass" xml:space="preserve">
+    <value>Należy zaktualizowac, klasę i metodę, dla serializacji z powodu że pojawiła sie nowa klasa dziedzicąca </value>
+  </data>
+  <data name="ExeptionMessageNipCompanyNotExist" xml:space="preserve">
+    <value>Za podanym NIP działalności nie ma</value>
+  </data>
+  <data name="ExeptionMessageNipIncorrect" xml:space="preserve">
+    <value>NIP zawiera 9 cyfr, NIP niepoprawny</value>
+  </data>
+  <data name="ExeptionMessageRegonCompanyNotExist" xml:space="preserve">
+    <value>Za podanym REGON działalności nie ma</value>
+  </data>
+  <data name="ExeptionMessageRegonIncorrect" xml:space="preserve">
+    <value>REGON składa sie z 9 lub 14 cyfr, REGON niepoprawny</value>
+  </data>
+  <data name="ExeptionMessageStructureOfResponseHasChanged" xml:space="preserve">
+    <value>Struktura informacji zwracanych z REGON API zmieniła sie trzeba wprowadzić zmiany w klase i metodzie, dla danych</value>
+  </data>
+  <data name="ResponseMessageForAdminSuccess" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="ResponseMessageForAdminUserProblem" xml:space="preserve">
+    <value>UserProblem</value>
+  </data>
+  <data name="ResponseMessageForUserAppProblem" xml:space="preserve">
+    <value>Problem z serwisem zgłoś się do administratora</value>
+  </data>
+  <data name="ResponseMessageForUserSuccess" xml:space="preserve">
+    <value>Success</value>
   </data>
 </root>

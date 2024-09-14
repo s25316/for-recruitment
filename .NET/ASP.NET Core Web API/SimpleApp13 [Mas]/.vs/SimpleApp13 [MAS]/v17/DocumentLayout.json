@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp13 [Mas]\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC11C7C-2432-41E5-ACDF-AFEE17321298}|Domain\\Domain.csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp13 [mas]\\domain\\entites\\personpart\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC11C7C-2432-41E5-ACDF-AFEE17321298}|Domain\\Domain.csproj|solutionrelative:domain\\entites\\personpart\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC11C7C-2432-41E5-ACDF-AFEE17321298}|Domain\\Domain.csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp13 [mas]\\domain\\entites\\contactpart\\historyofcontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC11C7C-2432-41E5-ACDF-AFEE17321298}|Domain\\Domain.csproj|solutionrelative:domain\\entites\\contactpart\\historyofcontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC11C7C-2432-41E5-ACDF-AFEE17321298}|Domain\\Domain.csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp13 [mas]\\domain\\entites\\companypart\\employmenthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC11C7C-2432-41E5-ACDF-AFEE17321298}|Domain\\Domain.csproj|solutionrelative:domain\\entites\\companypart\\employmenthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B1044E-6446-4D23-9786-22951EDDD02A}|Application\\Application.csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp13 [mas]\\application\\database\\models\\companypart\\employmenthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B1044E-6446-4D23-9786-22951EDDD02A}|Application\\Application.csproj|solutionrelative:application\\database\\models\\companypart\\employmenthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC11C7C-2432-41E5-ACDF-AFEE17321298}|Domain\\Domain.csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp13 [mas]\\domain\\entites\\personpart\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC11C7C-2432-41E5-ACDF-AFEE17321298}|Domain\\Domain.csproj|solutionrelative:domain\\entites\\personpart\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC11C7C-2432-41E5-ACDF-AFEE17321298}|Domain\\Domain.csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp13 [mas]\\domain\\entites\\prioritypart\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC11C7C-2432-41E5-ACDF-AFEE17321298}|Domain\\Domain.csproj|solutionrelative:domain\\entites\\prioritypart\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC11C7C-2432-41E5-ACDF-AFEE17321298}|Domain\\Domain.csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp13 [mas]\\domain\\entites\\prioritypart\\priorityrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC11C7C-2432-41E5-ACDF-AFEE17321298}|Domain\\Domain.csproj|solutionrelative:domain\\entites\\prioritypart\\priorityrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC11C7C-2432-41E5-ACDF-AFEE17321298}|Domain\\Domain.csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp13 [mas]\\domain\\entites\\prioritypart\\pep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC11C7C-2432-41E5-ACDF-AFEE17321298}|Domain\\Domain.csproj|solutionrelative:domain\\entites\\prioritypart\\pep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC11C7C-2432-41E5-ACDF-AFEE17321298}|Domain\\Domain.csproj|c:\\1 artem\u0060s folder\\c#\\asp.net core web api\\simpleapp13 [mas]\\domain\\entites\\prioritypart\\normalperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC11C7C-2432-41E5-ACDF-AFEE17321298}|Domain\\Domain.csproj|solutionrelative:domain\\entites\\prioritypart\\normalperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp13 [Mas]\\Domain\\Entites\\PersonPart\\Person.cs",
+              "RelativeDocumentMoniker": "Domain\\Entites\\PersonPart\\Person.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp13 [Mas]\\Domain\\Entites\\PersonPart\\Person.cs",
+              "RelativeToolTip": "Domain\\Entites\\PersonPart\\Person.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAqwF0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T17:36:14.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HistoryOfContact.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp13 [Mas]\\Domain\\Entites\\ContactPart\\HistoryOfContact.cs",
+              "RelativeDocumentMoniker": "Domain\\Entites\\ContactPart\\HistoryOfContact.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp13 [Mas]\\Domain\\Entites\\ContactPart\\HistoryOfContact.cs",
+              "RelativeToolTip": "Domain\\Entites\\ContactPart\\HistoryOfContact.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAcwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T17:34:43.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmploymentHistory.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp13 [Mas]\\Application\\Database\\Models\\CompanyPart\\EmploymentHistory.cs",
+              "RelativeDocumentMoniker": "Application\\Database\\Models\\CompanyPart\\EmploymentHistory.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp13 [Mas]\\Application\\Database\\Models\\CompanyPart\\EmploymentHistory.cs",
+              "RelativeToolTip": "Application\\Database\\Models\\CompanyPart\\EmploymentHistory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T17:32:27.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmploymentHistory.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp13 [Mas]\\Domain\\Entites\\CompanyPart\\EmploymentHistory.cs",
+              "RelativeDocumentMoniker": "Domain\\Entites\\CompanyPart\\EmploymentHistory.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp13 [Mas]\\Domain\\Entites\\CompanyPart\\EmploymentHistory.cs",
+              "RelativeToolTip": "Domain\\Entites\\CompanyPart\\EmploymentHistory.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAswCQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T17:31:39.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp13 [Mas]\\Domain\\Entites\\PersonPart\\Employee.cs",
+              "RelativeDocumentMoniker": "Domain\\Entites\\PersonPart\\Employee.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp13 [Mas]\\Domain\\Entites\\PersonPart\\Employee.cs",
+              "RelativeToolTip": "Domain\\Entites\\PersonPart\\Employee.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAUwEIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T17:29:33.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PriorityRole.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp13 [Mas]\\Domain\\Entites\\PriorityPart\\PriorityRole.cs",
+              "RelativeDocumentMoniker": "Domain\\Entites\\PriorityPart\\PriorityRole.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp13 [Mas]\\Domain\\Entites\\PriorityPart\\PriorityRole.cs",
+              "RelativeToolTip": "Domain\\Entites\\PriorityPart\\PriorityRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T17:27:35.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Priority.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp13 [Mas]\\Domain\\Entites\\PriorityPart\\Priority.cs",
+              "RelativeDocumentMoniker": "Domain\\Entites\\PriorityPart\\Priority.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp13 [Mas]\\Domain\\Entites\\PriorityPart\\Priority.cs",
+              "RelativeToolTip": "Domain\\Entites\\PriorityPart\\Priority.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAA3wEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T17:27:33.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Pep.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp13 [Mas]\\Domain\\Entites\\PriorityPart\\Pep.cs",
+              "RelativeDocumentMoniker": "Domain\\Entites\\PriorityPart\\Pep.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp13 [Mas]\\Domain\\Entites\\PriorityPart\\Pep.cs",
+              "RelativeToolTip": "Domain\\Entites\\PriorityPart\\Pep.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T17:27:30.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NormalPerson.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp13 [Mas]\\Domain\\Entites\\PriorityPart\\NormalPerson.cs",
+              "RelativeDocumentMoniker": "Domain\\Entites\\PriorityPart\\NormalPerson.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\C#\\ASP.NET Core Web API\\SimpleApp13 [Mas]\\Domain\\Entites\\PriorityPart\\NormalPerson.cs",
+              "RelativeToolTip": "Domain\\Entites\\PriorityPart\\NormalPerson.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T17:27:28.037Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

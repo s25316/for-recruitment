@@ -2,23 +2,46 @@
 
 namespace BialaListaVat.ValueObjects.RegonValue
 {
+    /// <summary>
+    /// Niepowtarzalny numer nadawany podmiotom gospodarki narodowej i jednostkom lokalnym tych podmiotów w krajowym rejestrze urzędowym podmiotów gospodarki narodowej REGON, niemający ukrytego lub jawnego charakteru znaczącego, określającego cechy podmiotu.
+    /// </summary>
+    /// <exception cref="RegonException"></exception>
     public record Regon
     {
-        public string Number { get; private set; }
-
-        public Regon(string regon) 
+        private string _number = null!;
+        public string Number
         {
-            var regex = new Regex(@"^(\d{9}|\d{14})$");
-            if (!regex.IsMatch(regon)) 
+            get { return _number; }
+            set
             {
-                throw new RegonException("Niepoprawny REGON");
+                value = RemoveCharacters(value);
+                if (!IsCorrectValue(value))
+                {
+                    throw new RegonException(Messages.RegonExeption);
+                }
+                _number = value;
             }
-            Number = regon;
         }
 
-        public static explicit operator Regon(string regon) 
-        { 
-            return new Regon(regon);
+        public Regon(string regon)
+        {
+            Number = regon;
+        }
+        //===========================================================================================================
+        //===========================================================================================================
+        //Private Methods
+        //===========================================================================================================
+        private string RemoveCharacters(string value)
+        {
+            return value
+                .Replace("-", "")
+                .Replace(" ", "")
+                .Trim();
+        }
+        private bool IsCorrectValue(string regon)
+        {
+            var regex = new Regex(@"^(\d{9}|\d{14})$");
+            return regex.IsMatch(regon);
         }
     }
 }

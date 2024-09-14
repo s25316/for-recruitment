@@ -1,0 +1,66 @@
+﻿@page "/people"
+@using Application.Repositories;
+@using Application.Repositories.DTOs.GetPersonByPesel
+@attribute [StreamRendering]
+@rendermode InteractiveServer
+@inject NavigationManager NavigationManager
+
+
+<h3>People</h3>
+<input @bind="Pesel" placeholder="Wprowadź Pesel" />
+
+
+
+@if (_list == null) 
+{ }
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Imie</th>
+                <th>Drugie Imie</th>
+                <th>nazwisko</th>
+                <th>Data Urodzenia</th>
+                <th>Email</th>
+                <th>Numer telefonu koorkowego</th>
+                <th>Pesel</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var x in _list)
+            {
+                <tr @onclick="() => RedirectToPersonPage(x.Id)">
+                    <td>@x.FirstName</td>
+                    <td>@x.HandName</td>
+                    <td>@x.LastName</td>
+                    <td>@x.BirthDate</td>
+                    <td>@x.Email</td>
+                    <td>@x.PhoneNumber</td>
+                    <td>@x.Pesel</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}
+
+@code {
+    [Inject] public  IUseCasesRepository Rep { get; set; }
+
+    private List<PersonDtoResponse>? _list;
+
+    private string Pesel { get; set; } = string.Empty;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        _list = await Rep.GetSimpleDataPeopleAsync();
+    }
+
+    void RedirectToPersonPage(Guid id)
+    {
+        NavigationManager.NavigateTo($"/person/{id}");
+    }
+
+}

@@ -5,11 +5,17 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleApp12 [APIs]", "SimpleApp12 [APIs]\SimpleApp12 [APIs].csproj", "{4B7F8E73-94E8-42F1-81AB-606308DE39A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radon", "Radon\Radon.csproj", "{94645868-8F11-495A-ABEE-1A87D85DA51F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radon", "Radon\Radon.csproj", "{94645868-8F11-495A-ABEE-1A87D85DA51F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BialaListaVat", "BialaListaVat\BialaListaVat.csproj", "{C37AE04A-B048-453C-8ABD-04462CF21F71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BialaListaVat", "BialaListaVat\BialaListaVat.csproj", "{C37AE04A-B048-453C-8ABD-04462CF21F71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regon", "Regon\Regon.csproj", "{86CAE683-D2CA-473C-B05F-5F00DE544E34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Regon", "Regon\Regon.csproj", "{86CAE683-D2CA-473C-B05F-5F00DE544E34}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegonTests", "RegonTests\RegonTests.csproj", "{9A0A2FBF-CDC7-48C9-9725-A365C3A8527F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BialaListaVatTests", "BialaListaVatTests\BialaListaVatTests.csproj", "{9F0BEAE0-0775-4B9E-9964-2343B8BC80CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadonTests", "RadonTests\RadonTests.csproj", "{92DBD55C-3AE3-4517-B1C8-26B930859C8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{86CAE683-D2CA-473C-B05F-5F00DE544E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86CAE683-D2CA-473C-B05F-5F00DE544E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86CAE683-D2CA-473C-B05F-5F00DE544E34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A0A2FBF-CDC7-48C9-9725-A365C3A8527F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A0A2FBF-CDC7-48C9-9725-A365C3A8527F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A0A2FBF-CDC7-48C9-9725-A365C3A8527F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A0A2FBF-CDC7-48C9-9725-A365C3A8527F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F0BEAE0-0775-4B9E-9964-2343B8BC80CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F0BEAE0-0775-4B9E-9964-2343B8BC80CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F0BEAE0-0775-4B9E-9964-2343B8BC80CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F0BEAE0-0775-4B9E-9964-2343B8BC80CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92DBD55C-3AE3-4517-B1C8-26B930859C8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92DBD55C-3AE3-4517-B1C8-26B930859C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92DBD55C-3AE3-4517-B1C8-26B930859C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92DBD55C-3AE3-4517-B1C8-26B930859C8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

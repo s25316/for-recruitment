@@ -12,10 +12,10 @@ namespace BialaListaVat.CustomJsonConverters
         {
             var dateString = reader.GetString();
             if (DateOnly.TryParseExact(
-                dateString, 
-                DateFormat, 
-                CultureInfo.InvariantCulture, 
-                DateTimeStyles.None, 
+                dateString,
+                DateFormat,
+                CultureInfo.InvariantCulture,
+                DateTimeStyles.None,
                 out DateOnly date))
             {
                 return date;

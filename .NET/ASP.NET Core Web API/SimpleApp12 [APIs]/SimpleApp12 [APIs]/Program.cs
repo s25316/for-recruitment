@@ -13,7 +13,7 @@ namespace SimpleApp12__APIs_
             // Add services to the container.
             builder.Services.BialaListaVatConfiguration();
             builder.Services.RadonConfiguration();
-            builder.Services.RegonConfiguration();            
+            builder.Services.RegonConfiguration();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

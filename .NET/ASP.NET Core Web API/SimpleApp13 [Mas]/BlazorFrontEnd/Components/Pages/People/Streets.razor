@@ -1,0 +1,57 @@
+﻿@page "/divisions/{name:long}/streets"
+@using Application.Repositories;
+@using Application.Repositories.DTOs.AdressPart
+@using Application.Repositories.DTOs.GetPersonByPesel
+@attribute [StreamRendering]
+@rendermode InteractiveServer
+@inject NavigationManager NavigationManager
+
+
+@if (_list == null)
+{ }
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>SourceId</th>
+                <th>Name</th>
+                <th>Name2</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var x in _list)
+            {
+                <tr>
+                    <th>@x.Id</th>
+                    <th>@x.IdSource</th>
+                    <th>@x.Name1</th>
+                    <th>@x.Name2</th>
+                    <th>@x.Type</th>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}
+
+@code {
+    [Inject] public IUseCasesRepository Rep { get; set; }
+
+    [Parameter]
+    public long Name { get; set; } 
+
+    private IList<StreetDto>? _list;
+
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        _list = await Rep.GetStreetsByDivisionIdAsync(Name);
+    }
+
+
+}
+

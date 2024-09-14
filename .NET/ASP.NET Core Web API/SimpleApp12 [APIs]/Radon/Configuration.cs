@@ -1,5 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Radon.Repositories;
+using Radon.Repositories.Deserialization;
+using Radon.Repositories.Url;
 
 namespace Radon
 {
@@ -8,6 +10,8 @@ namespace Radon
         public static IServiceCollection RadonConfiguration(this IServiceCollection serviceCollection)
         {
             serviceCollection.AddTransient<IUniversitiesRepository, UniversitiesRepository>();
+            serviceCollection.AddTransient<IDeserializationRepository, DeserializationRepository>();
+            serviceCollection.AddTransient<IUrlRepository, UrlRepository>();
 
             return serviceCollection;
         }
