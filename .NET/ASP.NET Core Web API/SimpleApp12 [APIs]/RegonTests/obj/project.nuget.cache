@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ph7+gWzT55Q=",
+  "dgSpecHash": "7PzaIjA/Rnw=",
   "success": true,
-  "projectFilePath": "C:\\1 Artem`s Folder\\C#\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\RegonTests\\RegonTests.csproj",
+  "projectFilePath": "C:\\1 Artem`s Folder\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\RegonTests\\RegonTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\artem\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\artem\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

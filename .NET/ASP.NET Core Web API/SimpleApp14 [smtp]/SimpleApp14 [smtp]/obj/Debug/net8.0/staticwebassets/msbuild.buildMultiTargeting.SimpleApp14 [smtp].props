@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SimpleApp14 [smtp].props" />
+</Project>

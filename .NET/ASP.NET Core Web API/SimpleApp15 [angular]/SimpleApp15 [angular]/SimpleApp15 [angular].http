@@ -1,0 +1,6 @@
+@SimpleApp15__angular__HostAddress = http://localhost:5233
+
+GET {{SimpleApp15__angular__HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

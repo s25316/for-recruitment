@@ -1,0 +1,64 @@
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\bin\Debug\net8.0\appsettings.Development.json
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\bin\Debug\net8.0\appsettings.json
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\bin\Debug\net8.0\SimpleApp14 [smtp].exe
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\bin\Debug\net8.0\SimpleApp14 [smtp].deps.json
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\bin\Debug\net8.0\SimpleApp14 [smtp].runtimeconfig.json
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\bin\Debug\net8.0\SimpleApp14 [smtp].dll
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\bin\Debug\net8.0\SimpleApp14 [smtp].pdb
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\SimpleApp14 [smtp].csproj.AssemblyReference.cache
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\SimpleApp14 [smtp].GeneratedMSBuildEditorConfig.editorconfig
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\SimpleApp14 [smtp].AssemblyInfoInputs.cache
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\SimpleApp14 [smtp].AssemblyInfo.cs
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\SimpleApp14 [smtp].csproj.CoreCompileInputs.cache
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\SimpleApp14 [smtp].MvcApplicationPartsAssemblyInfo.cs
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\SimpleApp14 [smtp].MvcApplicationPartsAssemblyInfo.cache
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\staticwebassets.build.json
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\staticwebassets.development.json
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\staticwebassets\msbuild.SimpleApp14 [smtp].Microsoft.AspNetCore.StaticWebAssets.props
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\staticwebassets\msbuild.build.SimpleApp14 [smtp].props
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SimpleApp14 [smtp].props
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SimpleApp14 [smtp].props
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\staticwebassets.pack.json
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\scopedcss\bundle\SimpleApp14 [smtp].styles.css
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\SimpleAp.870FD536.Up2Date
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\SimpleApp14 [smtp].dll
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\refint\SimpleApp14 [smtp].dll
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\SimpleApp14 [smtp].pdb
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\SimpleApp14 [smtp].genruntimeconfig.cache
+C:\1 Artem`s Folder\C#\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\ref\SimpleApp14 [smtp].dll
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\bin\Debug\net8.0\appsettings.Development.json
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\bin\Debug\net8.0\appsettings.json
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\bin\Debug\net8.0\SimpleApp14 [smtp].exe
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\bin\Debug\net8.0\SimpleApp14 [smtp].deps.json
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\bin\Debug\net8.0\SimpleApp14 [smtp].runtimeconfig.json
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\bin\Debug\net8.0\SimpleApp14 [smtp].dll
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\bin\Debug\net8.0\SimpleApp14 [smtp].pdb
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\SimpleApp14 [smtp].csproj.AssemblyReference.cache
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\SimpleApp14 [smtp].GeneratedMSBuildEditorConfig.editorconfig
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\SimpleApp14 [smtp].AssemblyInfoInputs.cache
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\SimpleApp14 [smtp].AssemblyInfo.cs
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\SimpleApp14 [smtp].csproj.CoreCompileInputs.cache
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\SimpleApp14 [smtp].MvcApplicationPartsAssemblyInfo.cs
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\SimpleApp14 [smtp].MvcApplicationPartsAssemblyInfo.cache
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\staticwebassets.build.json
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\staticwebassets.development.json
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\staticwebassets\msbuild.SimpleApp14 [smtp].Microsoft.AspNetCore.StaticWebAssets.props
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\staticwebassets\msbuild.build.SimpleApp14 [smtp].props
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SimpleApp14 [smtp].props
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SimpleApp14 [smtp].props
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\staticwebassets.pack.json
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\scopedcss\bundle\SimpleApp14 [smtp].styles.css
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\SimpleAp.870FD536.Up2Date
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\SimpleApp14 [smtp].dll
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\refint\SimpleApp14 [smtp].dll
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\SimpleApp14 [smtp].pdb
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\SimpleApp14 [smtp].genruntimeconfig.cache
+C:\1 Artem`s Folder\C#\ASP.NET Core Web API\SimpleApp14 [smtp]\SimpleApp14 [smtp]\obj\Debug\net8.0\ref\SimpleApp14 [smtp].dll

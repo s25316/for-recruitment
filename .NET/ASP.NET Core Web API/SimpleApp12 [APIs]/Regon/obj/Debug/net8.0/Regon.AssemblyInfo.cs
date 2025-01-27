@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Regon")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e2f8cc450b3a1c6ee7f30581a9bcea2bc220504")]
 [assembly: System.Reflection.AssemblyProductAttribute("Regon")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Regon")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

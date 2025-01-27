@@ -66,11 +66,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\1 Artem`s Folder\\C#\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\BialaListaVat\\BialaListaVat.csproj",
+      "projectUniqueName": "C:\\1 Artem`s Folder\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\BialaListaVat\\BialaListaVat.csproj",
       "projectName": "BialaListaVat",
-      "projectPath": "C:\\1 Artem`s Folder\\C#\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\BialaListaVat\\BialaListaVat.csproj",
+      "projectPath": "C:\\1 Artem`s Folder\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\BialaListaVat\\BialaListaVat.csproj",
       "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
-      "outputPath": "C:\\1 Artem`s Folder\\C#\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\BialaListaVat\\obj\\",
+      "outputPath": "C:\\1 Artem`s Folder\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\BialaListaVat\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
