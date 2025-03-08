@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\SimpleApp05 [EF  DbF].props" />
-</Project>

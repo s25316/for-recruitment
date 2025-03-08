@@ -1,6 +1,0 @@
-@SimpleApp14__smtp__HostAddress = http://localhost:5096
-
-GET {{SimpleApp14__smtp__HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

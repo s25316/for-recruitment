@@ -1,6 +1,0 @@
-@SimpleApp11__EF__CdF_JWT__HostAddress = http://localhost:5128
-
-GET {{SimpleApp11__EF__CdF_JWT__HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

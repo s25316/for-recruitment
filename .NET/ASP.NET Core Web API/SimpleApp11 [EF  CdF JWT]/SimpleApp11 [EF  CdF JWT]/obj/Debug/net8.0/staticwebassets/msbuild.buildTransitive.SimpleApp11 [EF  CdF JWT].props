@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\SimpleApp11 [EF  CdF JWT].props" />
-</Project>

@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\SimpleApp09 [EF  CdF].props" />
-</Project>

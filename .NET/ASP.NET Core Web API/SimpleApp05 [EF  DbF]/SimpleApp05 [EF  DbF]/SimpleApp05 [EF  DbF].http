@@ -1,6 +1,0 @@
-@SimpleApp05__EF__DbF__HostAddress = http://localhost:5034
-
-GET {{SimpleApp05__EF__DbF__HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
