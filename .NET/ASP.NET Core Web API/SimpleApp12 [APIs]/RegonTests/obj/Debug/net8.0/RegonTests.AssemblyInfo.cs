@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RegonTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e2f8cc450b3a1c6ee7f30581a9bcea2bc220504")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6127f396aeaed67710a52c0acff79eef1bc1544")]
 [assembly: System.Reflection.AssemblyProductAttribute("RegonTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RegonTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

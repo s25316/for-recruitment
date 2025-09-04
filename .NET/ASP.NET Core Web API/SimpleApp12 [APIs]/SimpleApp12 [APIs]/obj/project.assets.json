@@ -533,23 +533,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\artem\\.nuget\\packages\\": {},
+    "C:\\Users\\User\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\1 Artem`s Folder\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\SimpleApp12 [APIs]\\SimpleApp12 [APIs].csproj",
+      "projectUniqueName": "C:\\01Mine\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\SimpleApp12 [APIs]\\SimpleApp12 [APIs].csproj",
       "projectName": "SimpleApp12 [APIs]",
-      "projectPath": "C:\\1 Artem`s Folder\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\SimpleApp12 [APIs]\\SimpleApp12 [APIs].csproj",
-      "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
-      "outputPath": "C:\\1 Artem`s Folder\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\SimpleApp12 [APIs]\\obj\\",
+      "projectPath": "C:\\01Mine\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\SimpleApp12 [APIs]\\SimpleApp12 [APIs].csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\01Mine\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\SimpleApp12 [APIs]\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -558,21 +558,20 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\1 Artem`s Folder\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\BialaListaVat\\BialaListaVat.csproj": {
-              "projectPath": "C:\\1 Artem`s Folder\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\BialaListaVat\\BialaListaVat.csproj"
+            "C:\\01Mine\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\BialaListaVat\\BialaListaVat.csproj": {
+              "projectPath": "C:\\01Mine\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\BialaListaVat\\BialaListaVat.csproj"
             },
-            "C:\\1 Artem`s Folder\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Radon\\Radon.csproj": {
-              "projectPath": "C:\\1 Artem`s Folder\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Radon\\Radon.csproj"
+            "C:\\01Mine\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Radon\\Radon.csproj": {
+              "projectPath": "C:\\01Mine\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Radon\\Radon.csproj"
             },
-            "C:\\1 Artem`s Folder\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\Regon.csproj": {
-              "projectPath": "C:\\1 Artem`s Folder\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\Regon.csproj"
+            "C:\\01Mine\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\Regon.csproj": {
+              "projectPath": "C:\\01Mine\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\Regon.csproj"
             }
           }
         }
@@ -586,7 +585,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -616,7 +616,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\1 Artem\u0060s Folder\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\",
+  "WorkspaceRootPath": "C:\\01Mine\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4B7F8E73-94E8-42F1-81AB-606308DE39A6}|SimpleApp12 [APIs]\\SimpleApp12 [APIs].csproj|c:\\1 artem\u0060s folder\\git\\for-recruitment\\.net\\asp.net core web api\\simpleapp12 [apis]\\simpleapp12 [apis]\\controllers\\regon\\regoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B7F8E73-94E8-42F1-81AB-606308DE39A6}|SimpleApp12 [APIs]\\SimpleApp12 [APIs].csproj|solutionrelative:simpleapp12 [apis]\\controllers\\regon\\regoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94645868-8F11-495A-ABEE-1A87D85DA51F}|Radon\\Radon.csproj|c:\\01mine\\git\\for-recruitment\\.net\\asp.net core web api\\simpleapp12 [apis]\\radon\\aggregatesandentities\\courses\\coreresponse\\level1\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94645868-8F11-495A-ABEE-1A87D85DA51F}|Radon\\Radon.csproj|solutionrelative:radon\\aggregatesandentities\\courses\\coreresponse\\level1\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86CAE683-D2CA-473C-B05F-5F00DE544E34}|Regon\\Regon.csproj|c:\\1 artem\u0060s folder\\git\\for-recruitment\\.net\\asp.net core web api\\simpleapp12 [apis]\\regon\\repositories\\regonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86CAE683-D2CA-473C-B05F-5F00DE544E34}|Regon\\Regon.csproj|solutionrelative:regon\\repositories\\regonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94645868-8F11-495A-ABEE-1A87D85DA51F}|Radon\\Radon.csproj|c:\\01mine\\git\\for-recruitment\\.net\\asp.net core web api\\simpleapp12 [apis]\\radon\\customjsonconverters\\polishbooljsonconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94645868-8F11-495A-ABEE-1A87D85DA51F}|Radon\\Radon.csproj|solutionrelative:radon\\customjsonconverters\\polishbooljsonconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86CAE683-D2CA-473C-B05F-5F00DE544E34}|Regon\\Regon.csproj|c:\\1 artem\u0060s folder\\git\\for-recruitment\\.net\\asp.net core web api\\simpleapp12 [apis]\\regon\\aggregatesandentities\\responses\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86CAE683-D2CA-473C-B05F-5F00DE544E34}|Regon\\Regon.csproj|solutionrelative:regon\\aggregatesandentities\\responses\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94645868-8F11-495A-ABEE-1A87D85DA51F}|Radon\\Radon.csproj|c:\\01mine\\git\\for-recruitment\\.net\\asp.net core web api\\simpleapp12 [apis]\\radon\\customjsonconverters\\dateonlyjsonconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94645868-8F11-495A-ABEE-1A87D85DA51F}|Radon\\Radon.csproj|solutionrelative:radon\\customjsonconverters\\dateonlyjsonconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,39 +31,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RegonController.cs",
-              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\SimpleApp12 [APIs]\\Controllers\\Regon\\RegonController.cs",
-              "RelativeDocumentMoniker": "SimpleApp12 [APIs]\\Controllers\\Regon\\RegonController.cs",
-              "ToolTip": "C:\\1 Artem\u0060s Folder\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\SimpleApp12 [APIs]\\Controllers\\Regon\\RegonController.cs",
-              "RelativeToolTip": "SimpleApp12 [APIs]\\Controllers\\Regon\\RegonController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA7AAAA",
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\01Mine\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Radon\\AggregatesAndEntities\\Courses\\CoreResponse\\Level1\\Course.cs",
+              "RelativeDocumentMoniker": "Radon\\AggregatesAndEntities\\Courses\\CoreResponse\\Level1\\Course.cs",
+              "ToolTip": "C:\\01Mine\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Radon\\AggregatesAndEntities\\Courses\\CoreResponse\\Level1\\Course.cs",
+              "RelativeToolTip": "Radon\\AggregatesAndEntities\\Courses\\CoreResponse\\Level1\\Course.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAQwDoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T07:59:14.97Z",
+              "WhenOpened": "2025-07-24T20:13:56.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RegonRepository.cs",
-              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\Repositories\\RegonRepository.cs",
-              "RelativeDocumentMoniker": "Regon\\Repositories\\RegonRepository.cs",
-              "ToolTip": "C:\\1 Artem\u0060s Folder\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\Repositories\\RegonRepository.cs",
-              "RelativeToolTip": "Regon\\Repositories\\RegonRepository.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Title": "PolishBoolJsonConverter.cs",
+              "DocumentMoniker": "C:\\01Mine\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Radon\\CustomJsonConverters\\PolishBoolJsonConverter.cs",
+              "RelativeDocumentMoniker": "Radon\\CustomJsonConverters\\PolishBoolJsonConverter.cs",
+              "ToolTip": "C:\\01Mine\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Radon\\CustomJsonConverters\\PolishBoolJsonConverter.cs",
+              "RelativeToolTip": "Radon\\CustomJsonConverters\\PolishBoolJsonConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T12:15:59.044Z"
+              "WhenOpened": "2025-07-24T20:13:52.863Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Response.cs",
-              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\AggregatesAndEntities\\Responses\\Response.cs",
-              "RelativeDocumentMoniker": "Regon\\AggregatesAndEntities\\Responses\\Response.cs",
-              "ToolTip": "C:\\1 Artem\u0060s Folder\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Regon\\AggregatesAndEntities\\Responses\\Response.cs",
-              "RelativeToolTip": "Regon\\AggregatesAndEntities\\Responses\\Response.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "DateOnlyJsonConverter.cs",
+              "DocumentMoniker": "C:\\01Mine\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Radon\\CustomJsonConverters\\DateOnlyJsonConverter.cs",
+              "RelativeDocumentMoniker": "Radon\\CustomJsonConverters\\DateOnlyJsonConverter.cs",
+              "ToolTip": "C:\\01Mine\\git\\for-recruitment\\.NET\\ASP.NET Core Web API\\SimpleApp12 [APIs]\\Radon\\CustomJsonConverters\\DateOnlyJsonConverter.cs",
+              "RelativeToolTip": "Radon\\CustomJsonConverters\\DateOnlyJsonConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T12:15:53.861Z"
+              "WhenOpened": "2025-07-24T18:07:26.293Z"
             }
           ]
         }
