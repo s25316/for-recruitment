@@ -1,7 +1,13 @@
-﻿using System.Text;
+﻿// Ignore spelling: Deserialization
+using System.Text;
+using System.Text.Json.Serialization;
 
 namespace GangOfFour.Behavioral
 {
+    // This helps Deserialization classes 
+    [JsonDerivedType(typeof(Sleep), nameof(Sleep))]
+    [JsonDerivedType(typeof(Work), nameof(Work))]
+    [JsonDerivedType(typeof(Other), nameof(Other))]
     public abstract record State(DateTimeOffset Start)
     {
         public record Sleep(DateTimeOffset From, DateTimeOffset? To) : State(From);
