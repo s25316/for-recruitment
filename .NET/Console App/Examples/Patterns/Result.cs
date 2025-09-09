@@ -16,6 +16,8 @@
 
     public sealed record Error(string? Descritpion = null)
     {
+        public bool IsNone => string.IsNullOrEmpty(Descritpion);
+
         public static Error None => new();
     }
 }
