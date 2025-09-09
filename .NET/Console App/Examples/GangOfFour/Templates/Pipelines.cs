@@ -32,17 +32,8 @@
         }
     }
 
-    public sealed class Pipeline<TIn, TOut> : IOperation<TIn, TOut>
+    public sealed class Pipeline<TIn, TOut>(Func<TIn, TOut> operation) : IOperation<TIn, TOut>
     {
-        private readonly Func<TIn, TOut> operation;
-
-
-        public Pipeline(Func<TIn, TOut> operation)
-        {
-            this.operation = operation;
-        }
-
-
         public Pipeline<TIn, TNewOut> Add<TNewOut>(IOperation<TOut, TNewOut> nextOperation)
         {
             return new Pipeline<TIn, TNewOut>(input =>

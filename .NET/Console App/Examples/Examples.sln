@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36301.6 d17.14
+VisualStudioVersion = 17.14.36301.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples", "Examples\Examples.csproj", "{489BFB95-D654-4365-B1C3-2803D66D650B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GangOfFour", "GangOfFour\GangOfFour.csproj", "{1C4F9AC9-E9C2-413A-A1CC-ABB619791C36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns", "Patterns\Patterns.csproj", "{121C4A55-54F4-42DE-8053-473221096E62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1C4F9AC9-E9C2-413A-A1CC-ABB619791C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C4F9AC9-E9C2-413A-A1CC-ABB619791C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C4F9AC9-E9C2-413A-A1CC-ABB619791C36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{121C4A55-54F4-42DE-8053-473221096E62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{121C4A55-54F4-42DE-8053-473221096E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{121C4A55-54F4-42DE-8053-473221096E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{121C4A55-54F4-42DE-8053-473221096E62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

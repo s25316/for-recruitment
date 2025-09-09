@@ -45,5 +45,12 @@
             "4" => new FactoryItem2(),
             _ => new FactoryItemDefault()
         };
+
+        public static FactoryItem Create(Type type) => type switch
+        {
+            Type t when t == typeof(FactoryItem1) => new FactoryItem1(),
+            Type t when t == typeof(FactoryItem2) => new FactoryItem2(),
+            _ => new FactoryItemDefault()
+        };
     }
 }
