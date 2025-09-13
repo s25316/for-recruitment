@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GangOfFour", "GangOfFour\Ga
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns", "Patterns\Patterns.csproj", "{121C4A55-54F4-42DE-8053-473221096E62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnifiedModelingLanguage", "UnifiedModelingLanguage\UnifiedModelingLanguage.csproj", "{10450706-E4A2-4B34-B59F-1480D6CF5874}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{121C4A55-54F4-42DE-8053-473221096E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{121C4A55-54F4-42DE-8053-473221096E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{121C4A55-54F4-42DE-8053-473221096E62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10450706-E4A2-4B34-B59F-1480D6CF5874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10450706-E4A2-4B34-B59F-1480D6CF5874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10450706-E4A2-4B34-B59F-1480D6CF5874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10450706-E4A2-4B34-B59F-1480D6CF5874}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

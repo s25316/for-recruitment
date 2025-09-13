@@ -101,6 +101,7 @@
                 return this;
             }
 
+            // Can created by Policy
             public Item2 Build() => new Item2(name, surname, description);
         }
     }
