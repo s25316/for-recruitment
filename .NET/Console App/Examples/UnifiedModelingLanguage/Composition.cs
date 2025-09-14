@@ -1,7 +1,28 @@
 ﻿namespace UnifiedModelingLanguage
 {
-    public abstract record BaseCompositionObject
+    public partial record BaseObject
     {
-        public abstract record Composition(BaseCompositionObject Base);
+        private readonly IList<CompositionObject> compositions = new List<CompositionObject>();
+
+
+        public void AddComposition(CompositionObject composition) => compositions.Add(composition);
+    }
+
+    // Good version of Composition Object
+    public partial record BaseObject
+    {
+        public record CompositionObject
+        {
+            private readonly BaseObject baseObject;
+
+
+            protected CompositionObject(BaseObject baseObject)
+            {
+                this.baseObject = baseObject;
+            }
+
+
+            public static CompositionObject Create(BaseObject baseObject) => new(baseObject);
+        }
     }
 }

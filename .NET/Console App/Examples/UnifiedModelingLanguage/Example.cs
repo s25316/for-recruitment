@@ -1,23 +1,25 @@
 ﻿// Ignore Spelling: Pesel
 namespace UnifiedModelingLanguage
 {
-    public class Example
+    /// <summary>
+    /// {abstract}
+    /// </summary>
+    public abstract class Example
     {
-        public static
         /// <summary>
-        /// required property
+        /// UnderLined - class property and methods
         /// </summary>
-        public required string Name
-        { get; set; } = null!;
-        public required string Surname { get; set; } = null!;
+        public static string TypeName => nameof(TypeName);
+
+        public required string Name { get; set; } = null!;
 
         /// <summary>
-        /// Optional
+        /// [0..1] - Optional Property
         /// </summary>
         public string? HandName { get; set; } = null;
 
         /// <summary>
-        /// Derived attribute [Get, Has, Is]  => used existing property
+        /// /HasHandName - Derived attribute [Get, Has, Is]  => used existing property
         /// </summary>
         public bool HasHandName => !string.IsNullOrEmpty(HandName);
 
